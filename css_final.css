@@ -12,6 +12,15 @@ table {
     border-spacing: 0px;    
 }
 
+
+table tr td:nth-child(10){
+    display: none;
+}
+
+table tr td:nth-child(12){
+    display: none;
+}
+
 table th{
     top: 0px;
     background-color: #000;
@@ -26,7 +35,7 @@ table td {
     color: #fff;
 }
 .w2{
-width: 20px;
+width: 70px;
 }
 .w3{
 width: 30px;
@@ -35,12 +44,27 @@ width: 30px;
 width: 20px;
 }
 
+.w6{
+width: 60px;
+}
+
+.w15{
+width: 200px;
+}
+.w12{
+width: 400px;
+}
+
 .a1{
-    background-color: blue;
+	background:linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,115,256,1));
+	font-weight:bold;
 }
 
 .a2{
-    background-color: brown;
+	background:linear-gradient(to bottom,rgba(146,38,0,1), rgba(255,128,0,1));
+	font-weight:bold;
+	cursor:pointer;
+    border-radius:10px;
 }
 
 .a3{
@@ -49,6 +73,7 @@ width: 20px;
 
 .a4{
     background-color: purple;
+    border-radius:5px;
 }
 
 .a5{
@@ -56,7 +81,7 @@ width: 20px;
 }
 
 img{
-width: 300px;
+width: 200px;
 }
 
 .r {
