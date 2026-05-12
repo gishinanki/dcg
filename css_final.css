@@ -12,6 +12,17 @@ table {
     border-spacing: 0px;    
 }
 
+table tr td:nth-child(2){
+    display: none;
+}
+
+table tr td:nth-child(3){
+    display: none;
+}
+
+table tr td:nth-child(4){
+    display: none;
+}
 
 table tr td:nth-child(10){
     display: none;
