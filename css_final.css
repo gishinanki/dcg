@@ -12,6 +12,10 @@ table {
     border-spacing: 0px;    
 }
 
+table th:nth-child(1){
+    display: none;
+}
+
 table tr td:nth-child(2){
     display: none;
 }
