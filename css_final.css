@@ -221,6 +221,7 @@ width: 200px;
 .gw {
     background:linear-gradient(90deg,green 50%,white 50%);
     color: white;	text-align: center;
+	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .gk {
@@ -277,26 +278,31 @@ width: 200px;
 .wb {
     background:linear-gradient(90deg,white 50%,blue 50%);
     color: white;	text-align: center;
+	text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wy {
     background:linear-gradient(90deg,white 50%,yellow 50%);
     color: white;	text-align: center;
+　　text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wg {
     background:linear-gradient(90deg,white 50%,green 50%);
     color: white;	text-align: center;
+	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wk {
     background:linear-gradient(90deg,white 50%,black 50%);
     color: white;	text-align: center;
+	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wp {
     background:linear-gradient(90deg,white 50%,purple 50%);
     color: white;	text-align: center;
+	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .kr {
@@ -323,6 +329,7 @@ width: 200px;
 .kw {
     background:linear-gradient(90deg,black 50%,white 50%);
     color: white;	text-align: center;
+	text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .kp {
