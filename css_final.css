@@ -110,6 +110,7 @@ width: 200px;
 .r {
     background:linear-gradient(red);
     color: white;
+	text-align: left;
 }
 
 .b {
