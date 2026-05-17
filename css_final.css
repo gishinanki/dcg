@@ -479,3 +479,8 @@ width: 200px;
     color: white;	text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
+
+.prg {
+    background:linear-gradient(90deg,purple 33%,red 34%,66%,green 33%);
+    color: white;	text-align: center;
+}
