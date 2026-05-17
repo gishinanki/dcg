@@ -57,25 +57,20 @@ table td {
     background-color: #333;
     color: #fff;
 }
+.w1{
+width: 70px;
+}
 .w2{
 width: 70px;
 }
 .w3{
-width: 30px;
+width: 100px;
 }
-.w7{
-width: 20px;
+.w4{
+width: 300px;
 }
-
-.w6{
-width: 60px;
-}
-
-.w15{
-width: 150px;
-}
-.w12{
-width: 400px;
+.w5{
+width: 300px;
 }
 
 .a1{
