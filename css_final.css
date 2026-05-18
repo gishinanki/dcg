@@ -7,8 +7,12 @@
 font-weight: bold;
 }
 
-td[href="グレイモン"] {
+a[href="+1000"] {
   color: orange;
+}
+
+a[href*="進化元"] {
+  color: green;
 }
 
 table {
