@@ -7,6 +7,9 @@
 font-weight: bold;
 }
 
+td[href="グレイモン"] {
+  color: orange;
+}
 
 table {
     border-spacing: 0px;    
