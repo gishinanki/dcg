@@ -12,10 +12,6 @@ thead {
  top:0;
 }
 
-td[data-type="進化元"] {
-  color: red;
-}
-
 table {
     border-spacing: 0px;    
 }
@@ -65,6 +61,17 @@ table td {
     background-color: #333;
     color: #fff;
 }
+
+select ,input{
+  color: grey;
+  background-color: white;
+  height: 30px;
+}
+option{
+  color: white;
+  background-color: black;
+}
+
 .w1{
 width: 60px;
 }
@@ -86,11 +93,11 @@ width: 810px;
 }
 
 .a1{
-	background:linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,115,256,1));
+background:linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,115,256,1));
 }
 
 .a2{
-	background:linear-gradient(to bottom,rgba(146,38,0,1), rgba(255,128,0,1));
+background:linear-gradient(to bottom,rgba(146,38,0,1), rgba(255,128,0,1));
     border-radius:10px;
 }
 
@@ -122,379 +129,379 @@ width: 200px;
 
 .r {
     background:linear-gradient(red);
-    color: white;	text-align: center;
-	text-align: center;
+    color: white;text-align: center;
+text-align: center;
 }
 
 .b {
     background:linear-gradient(blue);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 .y {
     background:linear-gradient(yellow);
-    color: black;	text-align: center;
+    color: black;text-align: center;
 }
 .g {
     background:linear-gradient(green);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 .w {
     background:linear-gradient(white);
-    color: black;	text-align: center;
+    color: black;text-align: center;
 }
 .k {
     background:linear-gradient(black);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 .p {
     background:linear-gradient(purple);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .rb {
     background:linear-gradient(90deg,red 50%,blue 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .ry {
     background:linear-gradient(90deg,red 50%,yellow 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rg {
     background:linear-gradient(90deg,red 50%,green 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .rw {
     background:linear-gradient(90deg,red 50%,white 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rk {
     background:linear-gradient(90deg,red 50%,black 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .rp {
     background:linear-gradient(90deg,red 50%,purple 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .br {
     background:linear-gradient(90deg,blue 50%,red 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .by {
     background:linear-gradient(90deg,blue 50%,yellow 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .bg {
     background:linear-gradient(90deg,blue 50%,green 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .bw {
     background:linear-gradient(90deg,blue 50%,white 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .bk {
     background:linear-gradient(90deg,blue 50%,black 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .bp {
     background:linear-gradient(90deg,blue 50%,purple 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .gr {
     background:linear-gradient(90deg,green 50%,red 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .gb {
     background:linear-gradient(90deg,green 50%,blue 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .gy {
     background:linear-gradient(90deg,green 50%,yellow 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .gw {
     background:linear-gradient(90deg,green 50%,white 50%);
-    color: white;	text-align: center;
-	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    color: white;text-align: center;
+ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .gk {
     background:linear-gradient(90deg,green 50%,black 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .gp {
     background:linear-gradient(90deg,green 50%,purple 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .yr {
     background:linear-gradient(90deg,yellow 50%,red 50%);
-    color: black;	text-align: center;
+    color: black;text-align: center;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
 }
 
 .yb {
     background:linear-gradient(90deg,yellow 50%,blue 50%);
-    color: black;	text-align: center;
+    color: black;text-align: center;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
 }
 
 .yg {
     background:linear-gradient(90deg,yellow 50%,green 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .yw {
     background:linear-gradient(90deg,yellow 50%,white 50%);
-    color: black;	text-align: center;
+    color: black;text-align: center;
 }
 
 .yk {
     background:linear-gradient(90deg,yellow 50%,black 50%);
-    color: black;	text-align: center;
+    color: black;text-align: center;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
 }
 
 .yp {
     background:linear-gradient(90deg,yellow 50%,purple 50%);
-    color: black;	text-align: center;
+    color: black;text-align: center;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
 }
 
 .wr {
     background:linear-gradient(90deg,white 50%,red 50%);
-    color: black;	text-align: center;
+    color: black;text-align: center;
     text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
 }
 
 .wb {
     background:linear-gradient(90deg,white 50%,blue 50%);
-    color: white;	text-align: center;
-	text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    color: white;text-align: center;
+text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wy {
     background:linear-gradient(90deg,white 50%,yellow 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 　　text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wg {
     background:linear-gradient(90deg,white 50%,green 50%);
-    color: white;	text-align: center;
-	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    color: white;text-align: center;
+ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wk {
     background:linear-gradient(90deg,white 50%,black 50%);
-    color: white;	text-align: center;
-	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    color: white;text-align: center;
+ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wp {
     background:linear-gradient(90deg,white 50%,purple 50%);
-    color: white;	text-align: center;
-	 text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    color: white;text-align: center;
+ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .kr {
     background:linear-gradient(90deg,black 50%,red 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .kb {
     background:linear-gradient(90deg,black 50%,blue 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .ky {
     background:linear-gradient(90deg,black 50%,yellow 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .kg {
     background:linear-gradient(90deg,black 50%,green 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .kw {
     background:linear-gradient(90deg,black 50%,white 50%);
-    color: white;	text-align: center;
-	text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    color: white;text-align: center;
+text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .kp {
     background:linear-gradient(90deg,black 50%,purple 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .pr {
     background:linear-gradient(90deg,purple 50%,red 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .pb {
     background:linear-gradient(90deg,purple 50%,blue 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .py {
     background:linear-gradient(90deg,purple 50%,yellow 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .pg {
     background:linear-gradient(90deg,purple 50%,green 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .pw {
     background:linear-gradient(90deg,purple 50%,white 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .pk {
     background:linear-gradient(90deg,purple 50%,black 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .pk {
     background:linear-gradient(90deg,purple 50%,black 50%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .rby {
     background:linear-gradient(90deg,red 33%,blue 34%,66%,yellow 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .brg {
     background:linear-gradient(90deg,blue 33%,red 34%,66%,green 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .grb {
     background:linear-gradient(90deg,green 33%,red 34%,66%,blue 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rgb {
     background:linear-gradient(90deg,red 33%,green 34%,66%,blue 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rwb {
     background:linear-gradient(90deg,red 33%,white 34%,66%,blue 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rpk {
     background:linear-gradient(90deg,red 33%,purple 34%,66%,black 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
 
 .bwr {
     background:linear-gradient(90deg,blue 33%,white 34%,66%,red 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rkb {
     background:linear-gradient(90deg,red 33%,black 34%,66%,blue 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rpb {
     background:linear-gradient(90deg,red 33%,purple 34%,66%,blue 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .ryk {
     background:linear-gradient(90deg,red 33%,yellow 34%,66%,black 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .rbg {
     background:linear-gradient(90deg,red 33%,blue 34%,66%,green 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .kyr {
     background:linear-gradient(90deg,black 33%,yellow 34%,66%,red 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .gyk {
     background:linear-gradient(90deg,green 33%,yellow 34%,66%,black 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .bky {
     background:linear-gradient(90deg,blue 33%,black 34%,66%,yellow 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .pky {
     background:linear-gradient(90deg,purple 33%,black 34%,66%,yellow 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .gyb {
     background:linear-gradient(90deg,green 33%,yellow 34%,66%,blue 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .ybk {
     background:linear-gradient(90deg,yellow 33%,blue 34%,66%,black 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .wbg {
     background:linear-gradient(90deg,white 33%,blue 34%,66%,green 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
     text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
 }
 
 .prg {
     background:linear-gradient(90deg,purple 33%,red 34%,66%,green 33%);
-    color: white;	text-align: center;
+    color: white;text-align: center;
 }
