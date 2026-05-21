@@ -120,6 +120,10 @@ color: black;
 background:linear-gradient(to right,rgba(200,200,200,1), rgba(100,100,100,1));
 }
 
+.a9{
+color: grey;
+}
+
 img{
 width: 190px;
 }
