@@ -87,7 +87,7 @@ corner-shape: bevel;
 background:linear-gradient(to bottom,rgba(0,72,42,1), rgba(40,173,115,1));
 background-repeat: no-repeat;
 background-position: center center; 
-background-size: 90% 80%;
+background-size: 100% 80%;
 }
 
 .a4{
