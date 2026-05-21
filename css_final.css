@@ -115,8 +115,9 @@ background-size: 80% 85%;
 
 
 .a7{
-color: black;
-text-shadow: -0.5px -0.5px 0 white,0.5px -0.5px 0 white,-0.5px 0.5px 0 white,0.5px 0.5px 0 white;
+color: white;
+background:black;
+box-shadow: -0.5px -0.5px 0 white,0.5px -0.5px 0 white,-0.5px 0.5px 0 white,0.5px 0.5px 0 white;
 }
 
 .a8{
