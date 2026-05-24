@@ -2,18 +2,23 @@
 margin: 0px;
 padding: 3px;
 font-family: Arial, Helvetica, sans-serif;
-background-color: #000;
 color: #fff;
 font-weight: bold;
 border-spacing: 0px;    
 }
 
+body{
+background-color: #000;
+}
+
 thead{
  position:sticky;
  top:0;
+background-color: #000;
 }
 
 tfoot{
+background-color: #000;
  position:sticky;
  bottom:0;
 }
@@ -32,7 +37,7 @@ table tr td:nth-child(2)
 table td {
 text-align: left;
 font-size: 15px;
-border: 1px solid black;
+border: 0.75px solid black;
 background-color: #333;
 color: #fff;
 }
@@ -41,6 +46,11 @@ select,input{
   color: black;
   background-color: white;
   height: 30px;
+}
+
+optgroup{
+color: cyan;
+background-color: grey;
 }
 
 option{
@@ -56,11 +66,11 @@ counter-reset: aa;
 
 h1{
 counter-increment: aa;
-background-color: rgba(0,0,0,0);
 }
 
 h2::after{
-content: "Total：" counters(aa,"");
+content: "Total："counters(aa,"");
+float: left;
 }
 
 .w1{
@@ -103,7 +113,7 @@ corner-shape: bevel;
 background:linear-gradient(to bottom,rgba(0,72,42,1), rgba(40,173,115,1));
 background-repeat: no-repeat;
 background-position: center center; 
-background-size: 80% 80%;
+background-size: 90% 80%;
 }
 
 .a4{
@@ -116,7 +126,6 @@ border-radius:10px;
 
 .a5{
 color: cyan;
-background:rgba(0,0,0,0);
 background-repeat: no-repeat;
 background-position: center center; 
 background-size: 90% 80%;
@@ -131,8 +140,9 @@ background-size: 80% 85%;
 
 
 .a7{
-color: black;
-text-shadow: -0.5px -0.5px 0 white,0.5px -0.5px 0 white,-0.5px 0.5px 0 white,0.5px 0.5px 0 white;
+color: white;
+background:black;
+border: 0.75px solid white;
 }
 
 .a8{
@@ -142,7 +152,6 @@ background:linear-gradient(to right,rgba(200,200,200,1), rgba(100,100,100,1));
 
 .a9{
 color: grey;
-background:rgba(0,0,0,0);
 }
 
 img{
@@ -188,7 +197,7 @@ text-align: center;
 .ry {
     background:linear-gradient(90deg,red 50%,yellow 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rg {
@@ -199,7 +208,7 @@ text-align: center;
 .rw {
     background:linear-gradient(90deg,red 50%,white 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rk {
@@ -220,7 +229,7 @@ text-align: center;
 .by {
     background:linear-gradient(90deg,blue 50%,yellow 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .bg {
@@ -231,7 +240,7 @@ text-align: center;
 .bw {
     background:linear-gradient(90deg,blue 50%,white 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .bk {
@@ -257,13 +266,13 @@ text-align: center;
 .gy {
     background:linear-gradient(90deg,green 50%,yellow 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .gw {
     background:linear-gradient(90deg,green 50%,white 50%);
     color: white;text-align: center;
- text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .gk {
@@ -279,19 +288,19 @@ text-align: center;
 .yr {
     background:linear-gradient(90deg,yellow 50%,red 50%);
     color: black;text-align: center;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 }
 
 .yb {
     background:linear-gradient(90deg,yellow 50%,blue 50%);
     color: black;text-align: center;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 }
 
 .yg {
     background:linear-gradient(90deg,yellow 50%,green 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .yw {
@@ -302,49 +311,49 @@ text-align: center;
 .yk {
     background:linear-gradient(90deg,yellow 50%,black 50%);
     color: black;text-align: center;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 }
 
 .yp {
     background:linear-gradient(90deg,yellow 50%,purple 50%);
     color: black;text-align: center;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 }
 
 .wr {
     background:linear-gradient(90deg,white 50%,red 50%);
     color: black;text-align: center;
-    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 }
 
 .wb {
     background:linear-gradient(90deg,white 50%,blue 50%);
     color: white;text-align: center;
-text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .wy {
     background:linear-gradient(90deg,white 50%,yellow 50%);
     color: white;text-align: center;
-　　text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+　　text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .wg {
     background:linear-gradient(90deg,white 50%,green 50%);
     color: white;text-align: center;
- text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .wk {
     background:linear-gradient(90deg,white 50%,black 50%);
     color: white;text-align: center;
- text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .wp {
     background:linear-gradient(90deg,white 50%,purple 50%);
     color: white;text-align: center;
- text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .kr {
@@ -360,7 +369,7 @@ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black
 .ky {
     background:linear-gradient(90deg,black 50%,yellow 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .kg {
@@ -371,7 +380,7 @@ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black
 .kw {
     background:linear-gradient(90deg,black 50%,white 50%);
     color: white;text-align: center;
-text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .kp {
@@ -392,7 +401,7 @@ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black
 .py {
     background:linear-gradient(90deg,purple 50%,yellow 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .pg {
@@ -403,7 +412,7 @@ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black
 .pw {
     background:linear-gradient(90deg,purple 50%,white 50%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .pk {
@@ -419,31 +428,31 @@ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black
 .rby {
     background:linear-gradient(90deg,red 33%,blue 34%,66%,yellow 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .brg {
     background:linear-gradient(90deg,blue 33%,red 34%,66%,green 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .grb {
     background:linear-gradient(90deg,green 33%,red 34%,66%,blue 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rgb {
     background:linear-gradient(90deg,red 33%,green 34%,66%,blue 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rwb {
     background:linear-gradient(90deg,red 33%,white 34%,66%,blue 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rpk {
@@ -454,73 +463,73 @@ text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black
 .bwr {
     background:linear-gradient(90deg,blue 33%,white 34%,66%,red 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rkb {
     background:linear-gradient(90deg,red 33%,black 34%,66%,blue 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rpb {
     background:linear-gradient(90deg,red 33%,purple 34%,66%,blue 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .ryk {
     background:linear-gradient(90deg,red 33%,yellow 34%,66%,black 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .rbg {
     background:linear-gradient(90deg,red 33%,blue 34%,66%,green 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .kyr {
     background:linear-gradient(90deg,black 33%,yellow 34%,66%,red 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .gyk {
     background:linear-gradient(90deg,green 33%,yellow 34%,66%,black 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .bky {
     background:linear-gradient(90deg,blue 33%,black 34%,66%,yellow 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .pky {
     background:linear-gradient(90deg,purple 33%,black 34%,66%,yellow 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .gyb {
     background:linear-gradient(90deg,green 33%,yellow 34%,66%,blue 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .ybk {
     background:linear-gradient(90deg,yellow 33%,blue 34%,66%,black 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .wbg {
     background:linear-gradient(90deg,white 33%,blue 34%,66%,green 33%);
     color: white;text-align: center;
-    text-shadow: -1px -1px 0 black,1px -1px 0 black,-1px 1px 0 black,1px 1px 0 black;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .prg {
