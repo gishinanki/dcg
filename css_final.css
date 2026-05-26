@@ -28,12 +28,6 @@ thead{
 background-color: #000;
 }
 
-tfoot{
-background-color: #000;
- position:sticky;
- bottom:0;
-}
-
 table tr td:nth-child(2) 
 ,table tr td:nth-child(3)
 ,table tr td:nth-child(4)
