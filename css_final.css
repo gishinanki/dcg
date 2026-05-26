@@ -12,13 +12,10 @@ table {
   flex-direction: column;
 }
 thead {
-  order: 1; /* 第二顯示 */
+  order: 2; /* 第二顯示 */
 }
 tbody {
-  order: 3; /* 第三顯示 */
-}
-tfoot {
-  order: 2; /* 第一顯示（置頂） */
+  order: 1; /* 第三顯示 */
 }
 
 body{
