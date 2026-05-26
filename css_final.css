@@ -7,17 +7,6 @@ font-weight: bold;
 border-spacing: 0px;    
 }
 
-table {
-  display: flex;
-  flex-direction: column;
-}
-thead {
-  order: 2; /* 第二顯示 */
-}
-tbody {
-  order: 1; /* 第三顯示 */
-}
-
 body{
 background-color: #000;
 }
