@@ -19,612 +19,7 @@
   <div class="outer-wrapper">
   <div class="table-wrapper">
   <table id="emp-table">
-<thead>
 
-<tr>
-
-            <th col-index = 2>
-<select class="table-filter w1" onchange="filter_rows()">
-<option value="">レア</option>
-<option value="C">C</option>
-<option value="U">U</option>
-<option value="R">R</option>
-<option value="SR">SR</option>
-<option value="SEC">SEC</option>
-<option value="P">P</option>
-                </select>
-            </th>
-
-<th col-index = 3>
-<select class="table-filter w2" onchange="filter_rows()">
-<option class="" value="">カテゴリー</option>
-<option value="デジタマ">デジタマ</option>
-<option value="デジモン">デジモン</option>
-<option value="テイマー">テイマー</option>
-<option value="オプション">オプション</option>
-</select>
-</th>
-
-<th col-index = 7>
- <select class="table-filter w3" onchange="filter_rows()">
- <option value="">形態</option>
-<option value="幼年期">幼年期</option>
-<option value="成長期">成長期</option>
-<option value="成熟期">成熟期</option>
-<option value="完全体">完全体</option>
-<option value="究極体">究極体</option>
-<option value="アーマー体">アーマー体</option>
-<option value="ハイブリッド体">ハイブリッド体</option>
-<option value=" アプモン">アプモン</option>
-<option value="並/アプモン">並/アプモン</option>
-<option value="超/アプモン">超/アプモン</option>
-<option value="極/アプモン">極/アプモン</option>
-<option value="神/アプモン">神/アプモン</option>
-<option value="デ・リーパー">デ・リーパー</option>
-<option value="イーター">イーター</option>
-</select>
-</th>
-
-<th col-index = 10>
-<select class="table-filter w4" onchange="filter_rows()">
-<option value="">-</option>
-
-<optgroup label="領域">
-<option value="育成エリア">育成エリア</option>
-<option value="{育成}">{育成}</option>
-<option value="デジタマデッキ">デジタマデッキ</option>
-<option value="バトルエリア">バトルエリア</option>
-<option value="{手札}">{手札}</option>
-<option value="{セキュリティ}">{セキュリティ}</option>
-<option value="{トラッシュ}">{トラッシュ}</option>
-</optgroup>
-
-<optgroup label="タイミング">
-<option value="【移動時】">【移動時】</option>
-<option value="【登場時】">【登場時】</option>
-<option value="【進化時】">【進化時】</option>
-<option value="【消滅時】">【消滅時】</option>
-<option value="【メイン】">【メイン】</option>
-<option value="【セキュリティ】">【セキュリティ】</option>
-
-<option value="【アタック時】">【アタック時】</option>
-<option value="【カウンター】">【カウンター】</option>
-<option value="【アタック終了時】">【アタック終了時】</option>
-
-<option value="【自分のターン】">【自分のターン】</option>
-<option value="【自分のメインフェイズ開始時】">【自分のメインフェイズ開始時】</option>
-<option value="【自分のターン開始時】">【自分のターン開始時】</option>
-<option value="【自分のターン終了時】">【自分のターン終了時】</option>
-
-<option value="【相手のターン】">【相手のターン】</option>
-<option value="【相手のメインフェイズ開始時】">【相手のメインフェイズ開始時】</option>
-<option value="【相手のターン開始時】">【相手のターン開始時】</option>
-<option value="【相手のターン終了時】">【相手のターン終了時】</option>
-
-<option value="【お互いのターン】">【お互いのターン】</option>
-<option value="【お互いのターン終了時】">【お互いのターン終了時】</option>
-
-</optgroup>
-
-<optgroup label="対象">
-<option value="自分のデジモン">自分のデジモン</option>
-<option value="自分のテイマー">自分のテイマー</option>
-<option value="自分のオプション">自分のオプション</option>
-<option value="自分の進化元">自分の進化元</option>
-<option value="自分のデッキ">自分のデッキ</option>
-<option value="自分の手札">自分の手札</option>
-<option value="自分のセキュリティ">自分のセキュリティ</option>
-<option value="自分のトラッシュ">自分のトラッシュ</option>
-
-<option value="相手のデジモン">相手のデジモン</option>
-<option value="相手のテイマー">相手のテイマー</option>
-<option value="相手のオプション">相手のオプション</option>
-<option value="相手の進化元">相手の進化元</option>
-<option value="相手のデッキ">相手のデッキ</option>
-<option value="相手の手札">相手の手札</option>
-<option value="相手のセキュリティ">相手のセキュリティ</option>
-<option value="相手のトラッシュ">相手のトラッシュ</option>
-</optgroup>
-</select>
-</th>
-
-<th col-index = 13>
-<select class="table-filter w5" onchange="filter_rows()">
-<option value="">-</option>
-
-<optgroup label="領域">
-<option value="育成エリア">育成エリア</option>
-<option value="{育成}">{育成}</option>
-</optgroup>
-
-<optgroup label="タイミング">
-<option value="【登場時】">【登場時】</option>
-<option value="【進化時】">【進化時】</option>
-<option value="【消滅時】">【消滅時】</option>
-<option value="【アタック時】">【アタック時】</option>
-<option value="【アタック終了時】">【アタック終了時】</option>
-<option value="【メイン】">【メイン】</option>
-<option value="【セキュリティ】">【セキュリティ】</option>
-<option value="【自分のターン】">【自分のターン】</option>
-<option value="【自分のメインフェイズ開始時】">【自分のメインフェイズ開始時】</option>
-<option value="【自分のターン終了時】">【自分のターン終了時】</option>
-<option value="【相手のターン】">【相手のターン】</option>
-<option value="【相手のメインフェイズ開始時】">【相手のメインフェイズ開始時】</option>
-<option value="【相手のターン終了時】">【相手のターン終了時】</option>
-<option value="【お互いのターン】">【お互いのターン】</option>
-<option value="【お互いのターン終了時】">【お互いのターン終了時】</option>
-</optgroup>
-
-<optgroup label="対象">
-<option value="自分のデジモン">自分のデジモン</option>
-<option value="自分のテイマー">自分のテイマー</option>
-<option value="自分のオプション">自分のオプション</option>
-<option value="自分の進化元">自分の進化元</option>
-<option value="自分のデッキ">自分のデッキ</option>
-<option value="自分の手札">自分の手札</option>
-<option value="自分のセキュリティ">自分のセキュリティ</option>
-<option value="自分のトラッシュ">自分のトラッシュ</option>
-
-<option value="相手のデジモン">相手のデジモン</option>
-<option value="相手のテイマー">相手のテイマー</option>
-<option value="相手の進化元">相手の進化元</option>
-<option value="相手のデッキ">相手のデッキ</option>
-<option value="相手の手札">相手の手札</option>
-<option value="相手のセキュリティ">相手のセキュリティ</option>
-<option value="相手のトラッシュ">相手のトラッシュ</option>
-</optgroup>
-
-
-</select>
-</th>
-
-<th rowspan="3" col-index = 16>
-<input type="search" class="table-filter w6" onchange="filter_rows()" placeholder="入手情報">
-</th>
-</tr>
-
-<tr>
-<th col-index = 4>
-<select class="table-filter w1" onchange="filter_rows()">
-<option value="">Lv</option>
-<option value="Lv.2">Lv.2</option>
-<option value="Lv.3">Lv.3</option>
-<option value="Lv.4">Lv.4</option>
-<option value="Lv.5">Lv.5</option>
-<option value="Lv.6">Lv.6</option>
-<option value="Lv.7">Lv.7</option>
-<option value="Lv.-">Lv.-</option>
-                </select>
-            </th>
-
-<th col-index = 6>
-<select class="table-filter w2" onchange="filter_rows()">
-<option value="">色</option>
-<option value="赤">赤</option>
-<option value="青">青</option>
-<option value="黄">黄</option>
-<option value="緑">緑</option>
-<option value="白">白</option>
-<option value="黒">黒</option>
-<option value="紫">紫</option>
-</select>
-</th>
-
-<th col-index = 8>
-<select class="table-filter w3" onchange="filter_rows()">
-<option value="">属性</option>
-<option value="ウィルス種">ウィルス種</option>
-<option value="データ種">データ種</option>
-<option value="ワクチン種">ワクチン種</option>
-<option value="ヴァリアブル種">ヴァリアブル種</option>
-<option value="フリー">フリー</option>
-<option value="不明">不明</option>
-<option value="NODATA">NODATA</option>
-
-<option value="ソーシャル">ソーシャル</option>
-<option value="ナビ">ナビ</option>
-<option value="ツール">ツール</option>
-<option value="システム">システム</option>
-<option value="ゲーム">ゲーム</option>
-<option value="エンタメ">エンタメ</option>
-<option value="ライフ">ライフ</option>
-<option value="ゴッド">ゴッド</option>
-</select>
-</th>
-
-<th col-index = 11>
-<select class="table-filter w4" onchange="filter_rows()">
-<option value="">-</option>
-
-<optgroup label="キーワード効果">
-<option value="≪アーマー解除">≪アーマー解除≫</option>
-<option value="≪ヴォルテクス">≪ヴォルテクス≫</option>
-<option value="≪エグゼキュート">≪エグゼキュート≫</option>
-<option value="≪オーバークロック">≪オーバークロック≫</option>
-<option value="≪ジャミング">≪ジャミング≫</option>
-<option value="≪スケープゴート">≪スケープゴート≫</option>
-<option value="≪セーブ">≪セーブ≫</option>
-<option value="アタック+">≪Sアタック＋≫</option>
-<option value="アタック-">≪Sアタック－≫</option>
-<option value="≪ディレイ">≪ディレイ≫</option>
-<option value="≪デコイ">≪デコイ≫</option>
-<option value="≪デコード">≪デコード≫</option>
-<option value="≪デジバースト">≪デジバースト≫</option>
-<option value="≪トレーニング">≪トレーニング≫</option>
-<option value="ドロー≫">≪ドロー≫</option>
-<option value="≪パーティション">≪パーティション≫</option>
-<option value="≪フラグメント">≪フラグメント≫</option>
-<option value="≪ブラストジョグレス">≪ブラストジョグレス≫</option>
-<option value="≪ブラスト進化≫">≪ブラスト進化≫</option>
-<option value="≪プログレス">≪プログレス≫</option>
-<option value="≪ブロッカー">≪ブロッカー≫</option>
-<option value="≪マインドリンク">≪マインドリンク≫</option>
-<option value="≪マテリアルセーブ">≪マテリアルセーブ≫</option>
-<option value="≪リカバリー">≪リカバリー≫</option>
-<option value="≪リンク">≪リンク+≫</option>
-<option value="≪回避">≪回避≫</option>
-<option value="≪貫通">≪貫通≫</option>
-<option value="≪吸収進化">≪吸収進化≫</option>
-<option value="≪再起動">≪再起動≫</option>
-<option value="≪衝突">≪衝突≫</option>
-<option value="≪進撃">≪進撃≫</option>
-<option value="≪速攻">≪速攻≫</option>
-<option value="≪退化">≪退化≫</option>
-<option value="≪天昇≫">≪天昇≫</option>
-<option value="≪道連れ">≪道連れ≫</option>
-<option value="≪突進">≪突進≫</option>
-<option value="≪氷装">≪氷装≫</option>
-<option value="≪不屈">≪不屈≫</option>
-<option value="≪防壁">≪防壁≫</option>
-<option value="≪連携">≪連携≫</option>
-<option value="≪使用条件">≪使用条件≫</option>
-</optgroup>
-
-<optgroup label="ルール">
-<option value="〔進化〕">〔進化〕</option>
-<option value="〔バースト進化">〔バースト進化〕</option>
-<option value="〔ジョグレス">〔ジョグレス〕</option>
-<option value="デジクロス-">〔デジクロス〕</option>
-<option value="〔アプ合体〕">〔アプ合体〕</option>
-<option value="アセンブリ-">〔アセンブリ〕</option>
-<option value="バトルできる">強制バトル</option>
-</optgroup>
-
-<optgroup label="メモリー">
-<option value="メモリー+">メモリー＋</option>
-<option value="メモリー-">メモリー－</option>
-<option value="3にする">メモリー3</option>
-
-<option value="コストを支払わずに登場">コスト0登場</option>
-<option value="コストを支払わずに進化">コスト0進化</option>
-<option value="登場コスト-">登場コスト-</option>
-<option value="進化コスト-">進化コスト-</option>
-<option value="使用コスト-">使用コスト-</option>
-
-</optgroup>
-
-
-<option value="得る">効果得る</option>
-<option value="与える">効果与える</option>
-<option value="扱い">情報追加</option>
-<option value="に変更">情報変更</option>
-<option value="アタックの対象を">対象変更</option>
-<option value="アタックを終了">アタック終了</option>
-</optgroup>
-<optgroup label="移動">
-<option value="手札に戻せる">手札に戻せる</option>
-</optgroup>
-<optgroup label="無効">
-<option value="アタックできない">アタック禁止</option>
-<option value="ブロックできない">ブロック禁止</option>
-<option value="アクティブにならない">アクティブ禁止</option>
-<option value="レストできない">レスト禁止</option>
-<option value="移動できない">移動禁止</option>
-<option value="手札に戻らない">手札戻せ禁止</option>
-<option value="デッキに戻らない">デッキ戻せ禁止</option>
-<option value="登場できない">登場禁止</option>
-<option value="進化できない">進化禁止</option>
-<option value="使用できない">使用禁止</option>
-<option value="発揮しない">効果禁止</option>
-<option value="【登場時】効果は発揮しない">【登場時】効果禁止</option>
-<option value="【進化時】効果は発揮しない">【進化時】効果禁止</option>
-<option value="【セキュリティ】効果は発揮しない">【セキュリティ】効果禁止</option>
-
-<option value="効果を受">効果無効</option>
-<option value="デジモンの効果を受">デジモン効果無効</option>
-<option value="オプションの効果を受">オプション効果無効</option>
-<option value="≪退化≫の効果を受けない">退化無効</option>
-<option value="離れない">移動無効</option>
-<option value="DPをマイナスされ">DPマイナス無効</option>
-<option value="変更されない">対象変更無効</option>
-<option value="、消滅しない">消滅無効</option>
-<option value="バトルで消滅しない">バトル消滅無効</option>
-<option value="効果で消滅しない">効果消滅無効</option>
-</optgroup>
-</select>
-</th>
-
-<th col-index = 14>
-<select class="table-filter w5" onchange="filter_rows()">
-<option value="">-</option>
-
-<optgroup label="キーワード効果">
-<option value="アタック+">≪Sアタック＋≫</option>
-<option value="アタック-">≪Sアタック－≫</option>
-<option value="ジャミング">≪ジャミング≫</option>
-<option value="スケープゴート">≪スケープゴート≫</option>
-<option value="セーブ">≪セーブ≫</option>
-<option value="≪デコイ">≪デコイ≫</option>
-<option value="デコード">≪デコード≫</option>
-<option value="デジバースト">≪デジバースト≫</option>
-<option value="ドロー≫">≪ドロー≫</option>
-<option value="パーティション">≪パーティション≫</option>
-<option value="ブロッカー">≪ブロッカー≫</option>
-<option value="リカバリー">≪リカバリー≫</option>
-<option value="≪再起動">≪再起動≫</option>
-<option value="≪回避">≪回避≫</option>
-<option value="≪防壁">≪防壁≫</option>
-<option value="≪使用条件">≪使用条件≫</option>
-<option value="≪突進">≪突進≫</option>
-<option value="≪退化">≪退化≫</option>
-<option value="≪貫通">≪貫通≫</option>
-<option value="≪速攻">≪速攻≫</option>
-<option value="≪連携">≪連携≫</option>
-<option value="≪進撃">≪進撃≫</option>
-<option value="≪道連れ">≪道連れ≫</option>
-<option value="≪衝突">≪衝突≫</option>
-</optgroup>
-
-<optgroup label="ルール">
-<option value="オーバーフロー">〔オーバーフロー〕</option>
-<option value="〈リンク〉">〔リンク〕</option>
-<option value="≪アーツ進化≫">〔アーツ進化〕</option>
-</optgroup>
-
-<option value="ジョグレス進化">ジョグレス進化</option>
-
-<optgroup label="無効">
-<option value="アタックを終了">攻撃終了</option>
-<option value="アタックできない">攻撃禁止</option>
-<option value="アタックとブロックができない">攻防禁止</option>
-<option value="アクティブにならない">アクティブ禁止</option>
-<option value="レストできない">レスト禁止</option>
-<option value="使用できない">使用禁止</option>
-<option value="発揮しない">効果発揮禁止</option>
-
-<option value="効果を受">効果無効</option>
-<option value="≪退化≫の効果を受けない">退化無効</option>
-<option value="離れない">移動無効</option>
-<option value="変更されない"対象変更無効</option>
-<option value="バトルで消滅しない">バトル消滅無効</option>
-<option value="、消滅しない">消滅無効</option>
-</optgroup>
-</select>
-</th>
-
-</tr>
-
-<tr>
-<th  col-index = 1 >
-<input type="search" class="table-filter w1" onchange="filter_rows()" placeholder="ID">
-</th>
-
-<th col-index = 5>
-<input type="search" class="table-filter w2" onchange="filter_rows()" placeholder="名前">
-</th>
-
-<th col-index = 9>
-<select class="table-filter w3" onchange="filter_rows()">
-
-<option value="">タイプ</option>
-<option value="ADAMAS">ADAMAS</option>
-<option value="AE社">AE社</option>
-<option value="CS">CS</option>
-<option value="DM">DM</option>
-<option value="DS">DS</option>
-<option value="D-ブリガード">D-ブリガード</option>
-<option value="Legend-Arms">Legend-Arms</option>
-<option value="ME">ME</option>
-<option value="NSo">NSo</option>
-<option value="NSp">NSp</option>
-<option value="SoC">SoC</option>
-<option value="ST">ST</option>
-<option value="TB">TB</option>
-<option value="TS">TS</option>
-<option value="VB">VB</option>
-<option value="Ver.1">Ver.1</option>
-<option value="Ver.2">Ver.2</option>
-<option value="Ver.3">Ver.3</option>
-<option value="Ver.4">Ver.4</option>
-<option value="Ver.5">Ver.5</option>
-<option value="WG">WG</option>
-<option value="Xプログラム">Xプログラム</option>
-<option value="X抗体">X抗体</option>
-<option value="アクセル">アクセル</option>
-<option value="アドベンチャー">アドベンチャー</option>
-<option value="アプモン">アプモン</option>
-<option value="アプリドライヴァー">アプリドライヴァー</option>
-<option value="イリアス">イリアス</option>
-<option value="ウィッチェルニー">ウィッチェルニー</option>
-<option value="ヴォルテクスウォリアー">ヴォルテクスウォリアー</option>
-<option value="オリンポス十二神">オリンポス十二神</option>
-<option value="グローイングドーン">グローイングドーン</option>
-<option value="クロスハート">クロスハート</option>
-<option value="クロニクル">クロニクル</option>
-<option value="ザクソン">ザクソン</option>
-<option value="シーカーズ">シーカーズ</option>
-<option value="ジェネラル">ジェネラル</option>
-<option value="セイバーズ">セイバーズ</option>
-<option value="ダークマスターズ">ダークマスターズ</option>
-<option value="タイタン族">タイタン族</option>
-<option value="デ・リーパー">デ・リーパー</option>
-<option value="デーヴァ">デーヴァ</option>
-<option value="デジ対">デジ対</option>
-<option value="トワイライト">トワイライト</option>
-<option value="ナイトクロウ">ナイトクロウ</option>
-<option value="バグラ軍">バグラ軍</option>
-<option value="ハンター">ハンター</option>
-<option value="バンチョー">バンチョー</option>
-<option value="ビートブレイク">ビートブレイク</option>
-<option value="ヒーロー">ヒーロー</option>
-<option value="ビッグデスターズ">ビッグデスターズ</option>
-<option value="フーディエ">フーディエ</option>
-<option value="ブルーフレア">ブルーフレア</option>
-<option value="ライトファング">ライトファング</option>
-<option value="リヴァイアサン">リヴァイアサン</option>
-<option value="リベレイター">リベレイター</option>
-<option value="ロイヤルナイツ">ロイヤルナイツ</option>
-<option value="ローヤルベース">ローヤルベース</option>
-<option value="三銃士">三銃士</option>
-<option value="三大天使">三大天使</option>
-<option value="四聖獣">四聖獣</option>
-<option value="四大竜">四大竜</option>
-<option value="七大魔王">七大魔王</option>
-<option value="十闘士">十闘士</option>
-<optgroup label="種族">
-<option value="種族不明">種族不明</option>
-<option value="9000型">9000型</option>
-<option value="アンデッド型">アンデッド型</option>
-<option value="インベイド型">インベイド型</option>
-<option value="宇宙人型">宇宙人型</option>
-<option value="エイリアン型">エイリアン型</option>
-<option value="エンシェント型">エンシェント型</option>
-<option value="ゴースト型">ゴースト型</option>
-<option value="サイボーグ型">サイボーグ型</option>
-<option value="パーフェクト型">パーフェクト型</option>
-<option value="パペット型">パペット型</option>
-<option value="ヒナ鳥型">ヒナ鳥型</option>
-<option value="マイナー型">マイナー型</option>
-<option value="マシーン型">マシーン型</option>
-<option value="ミュータント型">ミュータント型</option>
-<option value="メジャー型">メジャー型</option>
-<option value="レッサー型">レッサー型</option>
-<option value="暗黒騎士型">暗黒騎士型</option>
-<option value="液晶薄型">液晶薄型</option>
-<option value="化身型">化身型</option>
-<option value="火炎型">火炎型</option>
-<option value="火炎竜型">火炎竜型</option>
-<option value="海獣型">海獣型</option>
-<option value="海人型">海人型</option>
-<option value="鎧竜型">鎧竜型</option>
-<option value="角竜型">角竜型</option>
-<option value="楽器型">楽器型</option>
-<option value="岩竜型">岩竜型</option>
-<option value="寄生型">寄生型</option>
-<option value="機雷型">機雷型</option>
-<option value="機竜型">機竜型</option>
-<option value="鬼人型">鬼人型</option>
-<option value="球根型">球根型</option>
-<option value="巨鳥型">巨鳥型</option>
-<option value="強化型">強化型</option>
-<option value="恐竜型">恐竜型</option>
-<option value="銀河型">銀河型</option>
-<option value="権天使型">権天使型</option>
-<option value="幻獣型">幻獣型</option>
-<option value="幻竜型">幻竜型</option>
-<option value="古代魚型">古代魚型</option>
-<option value="古代幻獣型">古代幻獣型</option>
-<option value="古代甲殻類型">古代甲殻類型</option>
-<option value="古代鉱物型">古代鉱物型</option>
-<option value="古代昆虫型">古代昆虫型</option>
-<option value="古代獣型">古代獣型</option>
-<option value="古代植物型">古代植物型</option>
-<option value="古代水棲獣人型">古代水棲獣人型</option>
-<option value="古代聖騎士型">古代聖騎士型</option>
-<option value="古代鳥型">古代鳥型</option>
-<option value="古代鳥人型">古代鳥人型</option>
-<option value="古代突然変異型">古代突然変異型</option>
-<option value="古代妖精型">古代妖精型</option>
-<option value="古代竜型">古代竜型</option>
-<option value="古代竜人型">古代竜人型</option>
-<option value="光竜型">光竜型</option>
-<option value="甲殻類型">甲殻類型</option>
-<option value="鉱石型">鉱石型</option>
-<option value="鉱物型">鉱物型</option>
-<option value="合成型">合成型</option>
-<option value="昆虫型">昆虫型</option>
-<option value="座天使型">座天使型</option>
-<option value="邪神型">邪神型</option>
-<option value="邪竜型">邪竜型</option>
-<option value="主天使型">主天使型</option>
-<option value="首長竜型">首長竜型</option>
-<option value="獣騎士型">獣騎士型</option>
-<option value="獣型">獣型</option>
-<option value="獣人型">獣人型</option>
-<option value="獣竜型">獣竜型</option>
-<option value="小悪魔型">小悪魔型</option>
-<option value="小鳥型">小鳥型</option>
-<option value="小天使型">小天使型</option>
-<option value="小竜型">小竜型</option>
-<option value="植物型">植物型</option>
-<option value="食虫植物型">食虫植物型</option>
-<option value="食物型">食物型</option>
-<option value="神獣型">神獣型</option>
-<option value="神人型">神人型</option>
-<option value="水棲型">水棲型</option>
-<option value="水棲獣人型">水棲獣人型</option>
-<option value="水棲哺乳類型">水棲哺乳類型</option>
-<option value="聖騎士型">聖騎士型</option>
-<option value="聖剣型">聖剣型</option>
-<option value="聖獣型">聖獣型</option>
-<option value="聖鳥型">聖鳥型</option>
-<option value="聖竜型">聖竜型</option>
-<option value="戦士型">戦士型</option>
-<option value="僧侶型">僧侶型</option>
-<option value="堕天使型">堕天使型</option>
-<option value="大天使型">大天使型</option>
-<option value="地竜型">地竜型</option>
-<option value="智天使型">智天使型</option>
-<option value="超メジャー型">超メジャー型</option>
-<option value="鳥型">鳥型</option>
-<option value="鳥人型">鳥人型</option>
-<option value="鳥竜型">鳥竜型</option>
-<option value="珍獣型">珍獣型</option>
-<option value="天使型">天使型</option>
-<option value="天竜型">天竜型</option>
-<option value="特異型">特異型</option>
-<option value="突然変異型">突然変異型</option>
-<option value="軟体型">軟体型</option>
-<option value="如来型">如来型</option>
-<option value="熱帯魚型">熱帯魚型</option>
-<option value="能天使型">能天使型</option>
-<option value="氷雪型">氷雪型</option>
-<option value="武器型">武器型</option>
-<option value="防具型">防具型</option>
-<option value="魔王型">魔王型</option>
-<option value="魔獣型">魔獣型</option>
-<option value="魔神型">魔神型</option>
-<option value="魔人型">魔人型</option>
-<option value="魔法騎士型">魔法騎士型</option>
-<option value="魔法戦士型">魔法戦士型</option>
-<option value="魔竜型">魔竜型</option>
-<option value="幼虫型">幼虫型</option>
-<option value="幼竜型">幼竜型</option>
-<option value="妖獣型">妖獣型</option>
-<option value="妖精型">妖精型</option>
-<option value="妖鳥型">妖鳥型</option>
-<option value="竜型">竜型</option>
-<option value="竜人型">竜人型</option>
-<option value="竜戦士型">竜戦士型</option>
-<option value="両生類型">両生類型</option>
-<option value="力天使型">力天使型</option>
-<option value="哺乳類型">哺乳類型</option>
-<option value="熾天使型">熾天使型</option>
-<option value="爬人型">爬人型</option>
-<option value="爬虫類型">爬虫類型</option>
-</optgroup>
-</select>
-</th>
-
-<th col-index = 12>
-<input type="search" class="table-filter w4" onchange="filter_rows()" placeholder="上段テキスト">
-</th>
-
-<th col-index = 15>
-<input type="search" class="table-filter w5" onchange="filter_rows()" placeholder="下段テキスト">
-</th>
-</tr>
-</thead>
 </div>
 <tbody>
 
@@ -4834,9 +4229,615 @@
 <tr><td>P-238</td><td>P</td><td>テイマー</td><td>-</td><td class=p><h1></h1>デストロイキャノン</td><td>紫</td><td>-</td><td>-</td><td>CS</td><td>[効果]≪使用条件《特徴「CS」》≫【メイン】Lv.6以下の相手のデジモン1体を消滅させる。その後、このカードをバトルエリアに置く。【自分のターン】特徴「CS」を持つ自分のデジモンがアタックしたとき、≪ディレイ≫。・Lv.6以下の相手のデジモン1体を消滅させる。</td><td>[効果]≪使用条件《特徴「CS」》≫【メイン】Lv.6以下の相手のデジモン1体を消滅させる。その後、このカードをバトルエリアに置く。【自分のターン】特徴「CS」を持つ自分のデジモンがアタックしたとき、≪ディレイ≫。・Lv.6以下の相手のデジモン1体を消滅させる。</td><td><span class="a5">[効果]</span><br><span class="a2">≪使用条件《特徴「CS」》≫</span><span class="a9">（指定のカードで色条件を無視できる）</span><br><span class="a1">【メイン】</span>Lv.6以下の相手のデジモン1体を消滅させる。その後、このカードをバトルエリアに置く。<br><span class="a1">【自分のターン】</span>特徴「CS」を持つ自分のデジモンがアタックしたとき、<span class="a2">≪ディレイ≫</span>。・Lv.6以下の相手のデジモン1体を消滅させる。</td><td>[セキュリティ効果] 【セキュリティ】Lv.6以下の相手のデジモン1体を消滅させる。その後、このカードをバトルエリアに置く。</td><td>[セキュリティ効果] 【セキュリティ】Lv.6以下の相手のデジモン1体を消滅させる。その後、このカードをバトルエリアに置く。</td><td><span class="a5">[セキュリティ効果]</span> <br><span class="a1">【セキュリティ】</span>Lv.6以下の相手のデジモン1体を消滅させる。その後、このカードをバトルエリアに置く。</td><td><img src=https://digimoncard.com/images/cardlist/card/P-238.png loading="lazy" title="テイマーバトルパック31"><img src=https://digimoncard.com/images/cardlist/card/P-238_P1.png loading="lazy" title="テイマーバトルパック31優勝"></td></tr>
 
 </tbody>
-<tfoot>
-<tr><th></th><th></th><th></th><th></th><th></th><th><h2></h2></th></tr>
-</tfoot>
+<thead>
+
+<tr>
+
+            <th col-index = 2>
+<select class="table-filter w1" onchange="filter_rows()">
+<option value="">レア</option>
+<option value="C">C</option>
+<option value="U">U</option>
+<option value="R">R</option>
+<option value="SR">SR</option>
+<option value="SEC">SEC</option>
+<option value="P">P</option>
+                </select>
+            </th>
+
+<th col-index = 3>
+<select class="table-filter w2" onchange="filter_rows()">
+<option class="" value="">カテゴリー</option>
+<option value="デジタマ">デジタマ</option>
+<option value="デジモン">デジモン</option>
+<option value="テイマー">テイマー</option>
+<option value="オプション">オプション</option>
+</select>
+</th>
+
+<th col-index = 7>
+ <select class="table-filter w3" onchange="filter_rows()">
+ <option value="">形態</option>
+<option value="幼年期">幼年期</option>
+<option value="成長期">成長期</option>
+<option value="成熟期">成熟期</option>
+<option value="完全体">完全体</option>
+<option value="究極体">究極体</option>
+<option value="アーマー体">アーマー体</option>
+<option value="ハイブリッド体">ハイブリッド体</option>
+<option value=" アプモン">アプモン</option>
+<option value="並/アプモン">並/アプモン</option>
+<option value="超/アプモン">超/アプモン</option>
+<option value="極/アプモン">極/アプモン</option>
+<option value="神/アプモン">神/アプモン</option>
+<option value="デ・リーパー">デ・リーパー</option>
+<option value="イーター">イーター</option>
+</select>
+</th>
+
+<th col-index = 10>
+<select class="table-filter w4" onchange="filter_rows()">
+<option value="">-</option>
+
+<optgroup label="領域">
+<option value="育成エリア">育成エリア</option>
+<option value="{育成}">{育成}</option>
+<option value="デジタマデッキ">デジタマデッキ</option>
+<option value="バトルエリア">バトルエリア</option>
+<option value="{手札}">{手札}</option>
+<option value="{セキュリティ}">{セキュリティ}</option>
+<option value="{トラッシュ}">{トラッシュ}</option>
+</optgroup>
+
+<optgroup label="タイミング">
+<option value="【移動時】">【移動時】</option>
+<option value="【登場時】">【登場時】</option>
+<option value="【進化時】">【進化時】</option>
+<option value="【消滅時】">【消滅時】</option>
+<option value="【メイン】">【メイン】</option>
+<option value="【セキュリティ】">【セキュリティ】</option>
+
+<option value="【アタック時】">【アタック時】</option>
+<option value="【カウンター】">【カウンター】</option>
+<option value="【アタック終了時】">【アタック終了時】</option>
+
+<option value="【自分のターン】">【自分のターン】</option>
+<option value="【自分のメインフェイズ開始時】">【自分のメインフェイズ開始時】</option>
+<option value="【自分のターン開始時】">【自分のターン開始時】</option>
+<option value="【自分のターン終了時】">【自分のターン終了時】</option>
+
+<option value="【相手のターン】">【相手のターン】</option>
+<option value="【相手のメインフェイズ開始時】">【相手のメインフェイズ開始時】</option>
+<option value="【相手のターン開始時】">【相手のターン開始時】</option>
+<option value="【相手のターン終了時】">【相手のターン終了時】</option>
+
+<option value="【お互いのターン】">【お互いのターン】</option>
+<option value="【お互いのターン終了時】">【お互いのターン終了時】</option>
+
+</optgroup>
+
+<optgroup label="対象">
+<option value="自分のデジモン">自分のデジモン</option>
+<option value="自分のテイマー">自分のテイマー</option>
+<option value="自分のオプション">自分のオプション</option>
+<option value="自分の進化元">自分の進化元</option>
+<option value="自分のデッキ">自分のデッキ</option>
+<option value="自分の手札">自分の手札</option>
+<option value="自分のセキュリティ">自分のセキュリティ</option>
+<option value="自分のトラッシュ">自分のトラッシュ</option>
+
+<option value="相手のデジモン">相手のデジモン</option>
+<option value="相手のテイマー">相手のテイマー</option>
+<option value="相手のオプション">相手のオプション</option>
+<option value="相手の進化元">相手の進化元</option>
+<option value="相手のデッキ">相手のデッキ</option>
+<option value="相手の手札">相手の手札</option>
+<option value="相手のセキュリティ">相手のセキュリティ</option>
+<option value="相手のトラッシュ">相手のトラッシュ</option>
+</optgroup>
+</select>
+</th>
+
+<th col-index = 13>
+<select class="table-filter w5" onchange="filter_rows()">
+<option value="">-</option>
+
+<optgroup label="領域">
+<option value="育成エリア">育成エリア</option>
+<option value="{育成}">{育成}</option>
+</optgroup>
+
+<optgroup label="タイミング">
+<option value="【登場時】">【登場時】</option>
+<option value="【進化時】">【進化時】</option>
+<option value="【消滅時】">【消滅時】</option>
+<option value="【アタック時】">【アタック時】</option>
+<option value="【アタック終了時】">【アタック終了時】</option>
+<option value="【メイン】">【メイン】</option>
+<option value="【セキュリティ】">【セキュリティ】</option>
+<option value="【自分のターン】">【自分のターン】</option>
+<option value="【自分のメインフェイズ開始時】">【自分のメインフェイズ開始時】</option>
+<option value="【自分のターン終了時】">【自分のターン終了時】</option>
+<option value="【相手のターン】">【相手のターン】</option>
+<option value="【相手のメインフェイズ開始時】">【相手のメインフェイズ開始時】</option>
+<option value="【相手のターン終了時】">【相手のターン終了時】</option>
+<option value="【お互いのターン】">【お互いのターン】</option>
+<option value="【お互いのターン終了時】">【お互いのターン終了時】</option>
+</optgroup>
+
+<optgroup label="対象">
+<option value="自分のデジモン">自分のデジモン</option>
+<option value="自分のテイマー">自分のテイマー</option>
+<option value="自分のオプション">自分のオプション</option>
+<option value="自分の進化元">自分の進化元</option>
+<option value="自分のデッキ">自分のデッキ</option>
+<option value="自分の手札">自分の手札</option>
+<option value="自分のセキュリティ">自分のセキュリティ</option>
+<option value="自分のトラッシュ">自分のトラッシュ</option>
+
+<option value="相手のデジモン">相手のデジモン</option>
+<option value="相手のテイマー">相手のテイマー</option>
+<option value="相手の進化元">相手の進化元</option>
+<option value="相手のデッキ">相手のデッキ</option>
+<option value="相手の手札">相手の手札</option>
+<option value="相手のセキュリティ">相手のセキュリティ</option>
+<option value="相手のトラッシュ">相手のトラッシュ</option>
+</optgroup>
+
+
+</select>
+</th>
+
+<th rowspan="3" col-index = 16>
+<input type="search" class="table-filter w6" onchange="filter_rows()" placeholder="入手情報">
+</th>
+</tr>
+
+<tr>
+<th col-index = 4>
+<select class="table-filter w1" onchange="filter_rows()">
+<option value="">Lv</option>
+<option value="Lv.2">Lv.2</option>
+<option value="Lv.3">Lv.3</option>
+<option value="Lv.4">Lv.4</option>
+<option value="Lv.5">Lv.5</option>
+<option value="Lv.6">Lv.6</option>
+<option value="Lv.7">Lv.7</option>
+<option value="Lv.-">Lv.-</option>
+                </select>
+            </th>
+
+<th col-index = 6>
+<select class="table-filter w2" onchange="filter_rows()">
+<option value="">色</option>
+<option value="赤">赤</option>
+<option value="青">青</option>
+<option value="黄">黄</option>
+<option value="緑">緑</option>
+<option value="白">白</option>
+<option value="黒">黒</option>
+<option value="紫">紫</option>
+</select>
+</th>
+
+<th col-index = 8>
+<select class="table-filter w3" onchange="filter_rows()">
+<option value="">属性</option>
+<option value="ウィルス種">ウィルス種</option>
+<option value="データ種">データ種</option>
+<option value="ワクチン種">ワクチン種</option>
+<option value="ヴァリアブル種">ヴァリアブル種</option>
+<option value="フリー">フリー</option>
+<option value="不明">不明</option>
+<option value="NODATA">NODATA</option>
+
+<option value="ソーシャル">ソーシャル</option>
+<option value="ナビ">ナビ</option>
+<option value="ツール">ツール</option>
+<option value="システム">システム</option>
+<option value="ゲーム">ゲーム</option>
+<option value="エンタメ">エンタメ</option>
+<option value="ライフ">ライフ</option>
+<option value="ゴッド">ゴッド</option>
+</select>
+</th>
+
+<th col-index = 11>
+<select class="table-filter w4" onchange="filter_rows()">
+<option value="">-</option>
+
+<optgroup label="キーワード効果">
+<option value="≪アーマー解除">≪アーマー解除≫</option>
+<option value="≪ヴォルテクス">≪ヴォルテクス≫</option>
+<option value="≪エグゼキュート">≪エグゼキュート≫</option>
+<option value="≪オーバークロック">≪オーバークロック≫</option>
+<option value="≪ジャミング">≪ジャミング≫</option>
+<option value="≪スケープゴート">≪スケープゴート≫</option>
+<option value="≪セーブ">≪セーブ≫</option>
+<option value="アタック+">≪Sアタック＋≫</option>
+<option value="アタック-">≪Sアタック－≫</option>
+<option value="≪ディレイ">≪ディレイ≫</option>
+<option value="≪デコイ">≪デコイ≫</option>
+<option value="≪デコード">≪デコード≫</option>
+<option value="≪デジバースト">≪デジバースト≫</option>
+<option value="≪トレーニング">≪トレーニング≫</option>
+<option value="ドロー≫">≪ドロー≫</option>
+<option value="≪パーティション">≪パーティション≫</option>
+<option value="≪フラグメント">≪フラグメント≫</option>
+<option value="≪ブラストジョグレス">≪ブラストジョグレス≫</option>
+<option value="≪ブラスト進化≫">≪ブラスト進化≫</option>
+<option value="≪プログレス">≪プログレス≫</option>
+<option value="≪ブロッカー">≪ブロッカー≫</option>
+<option value="≪マインドリンク">≪マインドリンク≫</option>
+<option value="≪マテリアルセーブ">≪マテリアルセーブ≫</option>
+<option value="≪リカバリー">≪リカバリー≫</option>
+<option value="≪リンク">≪リンク+≫</option>
+<option value="≪回避">≪回避≫</option>
+<option value="≪貫通">≪貫通≫</option>
+<option value="≪吸収進化">≪吸収進化≫</option>
+<option value="≪再起動">≪再起動≫</option>
+<option value="≪衝突">≪衝突≫</option>
+<option value="≪進撃">≪進撃≫</option>
+<option value="≪速攻">≪速攻≫</option>
+<option value="≪退化">≪退化≫</option>
+<option value="≪天昇≫">≪天昇≫</option>
+<option value="≪道連れ">≪道連れ≫</option>
+<option value="≪突進">≪突進≫</option>
+<option value="≪氷装">≪氷装≫</option>
+<option value="≪不屈">≪不屈≫</option>
+<option value="≪防壁">≪防壁≫</option>
+<option value="≪連携">≪連携≫</option>
+<option value="≪使用条件">≪使用条件≫</option>
+</optgroup>
+
+<optgroup label="ルール">
+<option value="〔進化〕">〔進化〕</option>
+<option value="〔バースト進化">〔バースト進化〕</option>
+<option value="〔ジョグレス">〔ジョグレス〕</option>
+<option value="デジクロス-">〔デジクロス〕</option>
+<option value="〔アプ合体〕">〔アプ合体〕</option>
+<option value="アセンブリ-">〔アセンブリ〕</option>
+<option value="バトルできる">強制バトル</option>
+</optgroup>
+
+<optgroup label="メモリー">
+<option value="メモリー+">メモリー＋</option>
+<option value="メモリー-">メモリー－</option>
+<option value="3にする">メモリー3</option>
+
+<option value="コストを支払わずに登場">コスト0登場</option>
+<option value="コストを支払わずに進化">コスト0進化</option>
+<option value="登場コスト-">登場コスト-</option>
+<option value="進化コスト-">進化コスト-</option>
+<option value="使用コスト-">使用コスト-</option>
+
+</optgroup>
+
+
+<option value="得る">効果得る</option>
+<option value="与える">効果与える</option>
+<option value="扱い">情報追加</option>
+<option value="に変更">情報変更</option>
+<option value="アタックの対象を">対象変更</option>
+<option value="アタックを終了">アタック終了</option>
+</optgroup>
+<optgroup label="移動">
+<option value="手札に戻せる">手札に戻せる</option>
+</optgroup>
+<optgroup label="無効">
+<option value="アタックできない">アタック禁止</option>
+<option value="ブロックできない">ブロック禁止</option>
+<option value="アクティブにならない">アクティブ禁止</option>
+<option value="レストできない">レスト禁止</option>
+<option value="移動できない">移動禁止</option>
+<option value="手札に戻らない">手札戻せ禁止</option>
+<option value="デッキに戻らない">デッキ戻せ禁止</option>
+<option value="登場できない">登場禁止</option>
+<option value="進化できない">進化禁止</option>
+<option value="使用できない">使用禁止</option>
+<option value="発揮しない">効果禁止</option>
+<option value="【登場時】効果は発揮しない">【登場時】効果禁止</option>
+<option value="【進化時】効果は発揮しない">【進化時】効果禁止</option>
+<option value="【セキュリティ】効果は発揮しない">【セキュリティ】効果禁止</option>
+
+<option value="効果を受">効果無効</option>
+<option value="デジモンの効果を受">デジモン効果無効</option>
+<option value="オプションの効果を受">オプション効果無効</option>
+<option value="≪退化≫の効果を受けない">退化無効</option>
+<option value="離れない">移動無効</option>
+<option value="DPをマイナスされ">DPマイナス無効</option>
+<option value="変更されない">対象変更無効</option>
+<option value="、消滅しない">消滅無効</option>
+<option value="バトルで消滅しない">バトル消滅無効</option>
+<option value="効果で消滅しない">効果消滅無効</option>
+</optgroup>
+</select>
+</th>
+
+<th col-index = 14>
+<select class="table-filter w5" onchange="filter_rows()">
+<option value="">-</option>
+
+<optgroup label="キーワード効果">
+<option value="アタック+">≪Sアタック＋≫</option>
+<option value="アタック-">≪Sアタック－≫</option>
+<option value="ジャミング">≪ジャミング≫</option>
+<option value="スケープゴート">≪スケープゴート≫</option>
+<option value="セーブ">≪セーブ≫</option>
+<option value="≪デコイ">≪デコイ≫</option>
+<option value="デコード">≪デコード≫</option>
+<option value="デジバースト">≪デジバースト≫</option>
+<option value="ドロー≫">≪ドロー≫</option>
+<option value="パーティション">≪パーティション≫</option>
+<option value="ブロッカー">≪ブロッカー≫</option>
+<option value="リカバリー">≪リカバリー≫</option>
+<option value="≪再起動">≪再起動≫</option>
+<option value="≪回避">≪回避≫</option>
+<option value="≪防壁">≪防壁≫</option>
+<option value="≪使用条件">≪使用条件≫</option>
+<option value="≪突進">≪突進≫</option>
+<option value="≪退化">≪退化≫</option>
+<option value="≪貫通">≪貫通≫</option>
+<option value="≪速攻">≪速攻≫</option>
+<option value="≪連携">≪連携≫</option>
+<option value="≪進撃">≪進撃≫</option>
+<option value="≪道連れ">≪道連れ≫</option>
+<option value="≪衝突">≪衝突≫</option>
+</optgroup>
+
+<optgroup label="ルール">
+<option value="オーバーフロー">〔オーバーフロー〕</option>
+<option value="〈リンク〉">〔リンク〕</option>
+<option value="≪アーツ進化≫">〔アーツ進化〕</option>
+</optgroup>
+
+<option value="ジョグレス進化">ジョグレス進化</option>
+
+<optgroup label="無効">
+<option value="アタックを終了">攻撃終了</option>
+<option value="アタックできない">攻撃禁止</option>
+<option value="アタックとブロックができない">攻防禁止</option>
+<option value="アクティブにならない">アクティブ禁止</option>
+<option value="レストできない">レスト禁止</option>
+<option value="使用できない">使用禁止</option>
+<option value="発揮しない">効果発揮禁止</option>
+
+<option value="効果を受">効果無効</option>
+<option value="≪退化≫の効果を受けない">退化無効</option>
+<option value="離れない">移動無効</option>
+<option value="変更されない"対象変更無効</option>
+<option value="バトルで消滅しない">バトル消滅無効</option>
+<option value="、消滅しない">消滅無効</option>
+</optgroup>
+</select>
+</th>
+
+</tr>
+
+<tr>
+<th  col-index = 1 >
+<input type="search" class="table-filter w1" onchange="filter_rows()" placeholder="ID">
+</th>
+
+<th col-index = 5>
+<input type="search" class="table-filter w2" onchange="filter_rows()" placeholder="名前">
+</th>
+
+<th col-index = 9>
+<select class="table-filter w3" onchange="filter_rows()">
+
+<option value="">タイプ</option>
+<option value="ADAMAS">ADAMAS</option>
+<option value="AE社">AE社</option>
+<option value="CS">CS</option>
+<option value="DM">DM</option>
+<option value="DS">DS</option>
+<option value="D-ブリガード">D-ブリガード</option>
+<option value="Legend-Arms">Legend-Arms</option>
+<option value="ME">ME</option>
+<option value="NSo">NSo</option>
+<option value="NSp">NSp</option>
+<option value="SoC">SoC</option>
+<option value="ST">ST</option>
+<option value="TB">TB</option>
+<option value="TS">TS</option>
+<option value="VB">VB</option>
+<option value="Ver.1">Ver.1</option>
+<option value="Ver.2">Ver.2</option>
+<option value="Ver.3">Ver.3</option>
+<option value="Ver.4">Ver.4</option>
+<option value="Ver.5">Ver.5</option>
+<option value="WG">WG</option>
+<option value="Xプログラム">Xプログラム</option>
+<option value="X抗体">X抗体</option>
+<option value="アクセル">アクセル</option>
+<option value="アドベンチャー">アドベンチャー</option>
+<option value="アプモン">アプモン</option>
+<option value="アプリドライヴァー">アプリドライヴァー</option>
+<option value="イリアス">イリアス</option>
+<option value="ウィッチェルニー">ウィッチェルニー</option>
+<option value="ヴォルテクスウォリアー">ヴォルテクスウォリアー</option>
+<option value="オリンポス十二神">オリンポス十二神</option>
+<option value="グローイングドーン">グローイングドーン</option>
+<option value="クロスハート">クロスハート</option>
+<option value="クロニクル">クロニクル</option>
+<option value="ザクソン">ザクソン</option>
+<option value="シーカーズ">シーカーズ</option>
+<option value="ジェネラル">ジェネラル</option>
+<option value="セイバーズ">セイバーズ</option>
+<option value="ダークマスターズ">ダークマスターズ</option>
+<option value="タイタン族">タイタン族</option>
+<option value="デ・リーパー">デ・リーパー</option>
+<option value="デーヴァ">デーヴァ</option>
+<option value="デジ対">デジ対</option>
+<option value="トワイライト">トワイライト</option>
+<option value="ナイトクロウ">ナイトクロウ</option>
+<option value="バグラ軍">バグラ軍</option>
+<option value="ハンター">ハンター</option>
+<option value="バンチョー">バンチョー</option>
+<option value="ビートブレイク">ビートブレイク</option>
+<option value="ヒーロー">ヒーロー</option>
+<option value="ビッグデスターズ">ビッグデスターズ</option>
+<option value="フーディエ">フーディエ</option>
+<option value="ブルーフレア">ブルーフレア</option>
+<option value="ライトファング">ライトファング</option>
+<option value="リヴァイアサン">リヴァイアサン</option>
+<option value="リベレイター">リベレイター</option>
+<option value="ロイヤルナイツ">ロイヤルナイツ</option>
+<option value="ローヤルベース">ローヤルベース</option>
+<option value="三銃士">三銃士</option>
+<option value="三大天使">三大天使</option>
+<option value="四聖獣">四聖獣</option>
+<option value="四大竜">四大竜</option>
+<option value="七大魔王">七大魔王</option>
+<option value="十闘士">十闘士</option>
+<optgroup label="種族">
+<option value="種族不明">種族不明</option>
+<option value="9000型">9000型</option>
+<option value="アンデッド型">アンデッド型</option>
+<option value="インベイド型">インベイド型</option>
+<option value="宇宙人型">宇宙人型</option>
+<option value="エイリアン型">エイリアン型</option>
+<option value="エンシェント型">エンシェント型</option>
+<option value="ゴースト型">ゴースト型</option>
+<option value="サイボーグ型">サイボーグ型</option>
+<option value="パーフェクト型">パーフェクト型</option>
+<option value="パペット型">パペット型</option>
+<option value="ヒナ鳥型">ヒナ鳥型</option>
+<option value="マイナー型">マイナー型</option>
+<option value="マシーン型">マシーン型</option>
+<option value="ミュータント型">ミュータント型</option>
+<option value="メジャー型">メジャー型</option>
+<option value="レッサー型">レッサー型</option>
+<option value="暗黒騎士型">暗黒騎士型</option>
+<option value="液晶薄型">液晶薄型</option>
+<option value="化身型">化身型</option>
+<option value="火炎型">火炎型</option>
+<option value="火炎竜型">火炎竜型</option>
+<option value="海獣型">海獣型</option>
+<option value="海人型">海人型</option>
+<option value="鎧竜型">鎧竜型</option>
+<option value="角竜型">角竜型</option>
+<option value="楽器型">楽器型</option>
+<option value="岩竜型">岩竜型</option>
+<option value="寄生型">寄生型</option>
+<option value="機雷型">機雷型</option>
+<option value="機竜型">機竜型</option>
+<option value="鬼人型">鬼人型</option>
+<option value="球根型">球根型</option>
+<option value="巨鳥型">巨鳥型</option>
+<option value="強化型">強化型</option>
+<option value="恐竜型">恐竜型</option>
+<option value="銀河型">銀河型</option>
+<option value="権天使型">権天使型</option>
+<option value="幻獣型">幻獣型</option>
+<option value="幻竜型">幻竜型</option>
+<option value="古代魚型">古代魚型</option>
+<option value="古代幻獣型">古代幻獣型</option>
+<option value="古代甲殻類型">古代甲殻類型</option>
+<option value="古代鉱物型">古代鉱物型</option>
+<option value="古代昆虫型">古代昆虫型</option>
+<option value="古代獣型">古代獣型</option>
+<option value="古代植物型">古代植物型</option>
+<option value="古代水棲獣人型">古代水棲獣人型</option>
+<option value="古代聖騎士型">古代聖騎士型</option>
+<option value="古代鳥型">古代鳥型</option>
+<option value="古代鳥人型">古代鳥人型</option>
+<option value="古代突然変異型">古代突然変異型</option>
+<option value="古代妖精型">古代妖精型</option>
+<option value="古代竜型">古代竜型</option>
+<option value="古代竜人型">古代竜人型</option>
+<option value="光竜型">光竜型</option>
+<option value="甲殻類型">甲殻類型</option>
+<option value="鉱石型">鉱石型</option>
+<option value="鉱物型">鉱物型</option>
+<option value="合成型">合成型</option>
+<option value="昆虫型">昆虫型</option>
+<option value="座天使型">座天使型</option>
+<option value="邪神型">邪神型</option>
+<option value="邪竜型">邪竜型</option>
+<option value="主天使型">主天使型</option>
+<option value="首長竜型">首長竜型</option>
+<option value="獣騎士型">獣騎士型</option>
+<option value="獣型">獣型</option>
+<option value="獣人型">獣人型</option>
+<option value="獣竜型">獣竜型</option>
+<option value="小悪魔型">小悪魔型</option>
+<option value="小鳥型">小鳥型</option>
+<option value="小天使型">小天使型</option>
+<option value="小竜型">小竜型</option>
+<option value="植物型">植物型</option>
+<option value="食虫植物型">食虫植物型</option>
+<option value="食物型">食物型</option>
+<option value="神獣型">神獣型</option>
+<option value="神人型">神人型</option>
+<option value="水棲型">水棲型</option>
+<option value="水棲獣人型">水棲獣人型</option>
+<option value="水棲哺乳類型">水棲哺乳類型</option>
+<option value="聖騎士型">聖騎士型</option>
+<option value="聖剣型">聖剣型</option>
+<option value="聖獣型">聖獣型</option>
+<option value="聖鳥型">聖鳥型</option>
+<option value="聖竜型">聖竜型</option>
+<option value="戦士型">戦士型</option>
+<option value="僧侶型">僧侶型</option>
+<option value="堕天使型">堕天使型</option>
+<option value="大天使型">大天使型</option>
+<option value="地竜型">地竜型</option>
+<option value="智天使型">智天使型</option>
+<option value="超メジャー型">超メジャー型</option>
+<option value="鳥型">鳥型</option>
+<option value="鳥人型">鳥人型</option>
+<option value="鳥竜型">鳥竜型</option>
+<option value="珍獣型">珍獣型</option>
+<option value="天使型">天使型</option>
+<option value="天竜型">天竜型</option>
+<option value="特異型">特異型</option>
+<option value="突然変異型">突然変異型</option>
+<option value="軟体型">軟体型</option>
+<option value="如来型">如来型</option>
+<option value="熱帯魚型">熱帯魚型</option>
+<option value="能天使型">能天使型</option>
+<option value="氷雪型">氷雪型</option>
+<option value="武器型">武器型</option>
+<option value="防具型">防具型</option>
+<option value="魔王型">魔王型</option>
+<option value="魔獣型">魔獣型</option>
+<option value="魔神型">魔神型</option>
+<option value="魔人型">魔人型</option>
+<option value="魔法騎士型">魔法騎士型</option>
+<option value="魔法戦士型">魔法戦士型</option>
+<option value="魔竜型">魔竜型</option>
+<option value="幼虫型">幼虫型</option>
+<option value="幼竜型">幼竜型</option>
+<option value="妖獣型">妖獣型</option>
+<option value="妖精型">妖精型</option>
+<option value="妖鳥型">妖鳥型</option>
+<option value="竜型">竜型</option>
+<option value="竜人型">竜人型</option>
+<option value="竜戦士型">竜戦士型</option>
+<option value="両生類型">両生類型</option>
+<option value="力天使型">力天使型</option>
+<option value="哺乳類型">哺乳類型</option>
+<option value="熾天使型">熾天使型</option>
+<option value="爬人型">爬人型</option>
+<option value="爬虫類型">爬虫類型</option>
+</optgroup>
+</select>
+</th>
+
+<th col-index = 12>
+<input type="search" class="table-filter w4" onchange="filter_rows()" placeholder="上段テキスト">
+</th>
+
+<th col-index = 15>
+<input type="search" class="table-filter w5" onchange="filter_rows()" placeholder="下段テキスト">
+</th>
+<th>
+<h2></h2>
+</th>
+</tr>
+</thead>
 </table>
 </body>
 </html>
