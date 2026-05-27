@@ -280,13 +280,17 @@
 <option value="登場できない">登場禁止</option>
 </optgroup>
 
+<option value="を手札に加える。">サーチ</option>
+
 <optgroup label="進化">
+<option value="進化条件を無視">進化条件無視</option>
 <option value="進化コスト-">進化コスト－</option>
 <option value="コストを支払わずに進化">無コスト進化</option>
 <option value="進化できない">進化禁止</option>
 </optgroup>
 
-<optgroup label="オプション">
+<optgroup label="テイマー/オプション">
+<option value="色条件を無視">色条件無視</option>
 <option value="使用コスト-">使用コスト－</option>
 <option value="使用できない">使用禁止</option>
 </optgroup>
@@ -318,6 +322,7 @@
 
 <optgroup label="破棄">
 <option value="破棄する。">破棄</option>
+<option value="破棄されない">破棄無効</option>
 </optgroup>
 
 <optgroup label="バトルエリアから">
