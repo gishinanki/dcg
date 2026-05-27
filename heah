@@ -278,7 +278,6 @@
 <option value="登場コスト-">登場コスト－</option>
 <option value="コストを支払わずに登場">無コスト登場</option>
 <option value="登場できない">登場禁止</option>
-
 </optgroup>
 
 <optgroup label="進化">
@@ -295,10 +294,9 @@
 <optgroup label="バトル">
 <option value="バトルできる">バトル</option>
 <option value="アタックできる">アタック</option>
-<option value="ブロックできる">ブロック</option>
 <option value="アクティブにする">アクティブ</option>
 <option value="レストできる">レスト</option>
-<option value="アタックの対象を">対象変更</option>
+<option value="の対象を">対象変更</option>
 <option value="変更されない">対象変更無効</option>
 <option value="アタックされない">アタック無効</option>
 <option value="ブロックされない">ブロック無効</option>
@@ -338,8 +336,8 @@
 <optgroup label="効果">
 <option value="得る">効果得る</option>
 <option value="与える">効果与える</option>
+<option value=">に変更">効果変更</option>
 <option value="扱い">情報追加</option>
-<option value="に変更">情報変更</option>
 
 <option value="効果を受">効果無効</option>
 <option value="デジモンの効果を受">デジモン効果無効</option>
