@@ -266,7 +266,6 @@
 <option value="デジクロス-">〔デジクロス〕</option>
 <option value="〔アプ合体〕">〔アプ合体〕</option>
 <option value="アセンブリ-">〔アセンブリ〕</option>
-<option value="バトルできる">強制バトル</option>
 </optgroup>
 
 <optgroup label="メモリー">
@@ -279,10 +278,10 @@
 <option value="登場コスト-">登場コスト－</option>
 <option value="進化コスト-">進化コスト－</option>
 <option value="使用コスト-">使用コスト－</option>
-
 </optgroup>
 
-
+<optgroup label="バトル">
+<option value="バトルできる">強制バトル</option>
 <option value="得る">効果得る</option>
 <option value="与える">効果与える</option>
 <option value="扱い">情報追加</option>
@@ -290,13 +289,15 @@
 <option value="アタックの対象を">アタック対象変更</option>
 <option value="アタックを終了">アタック終了</option>
 </optgroup>
-<optgroup label="移動">
-<option value="手札に戻">手札戻す</option>
+
+<optgroup label="バトルエリアを離れる">
+<option value="手札に戻">手札に戻る</option>
+<option value="デッキの上に戻">デッキの上に戻る</option>
+<option value="デッキの下に戻">デッキの下に戻る</option>
+<option value="セキュリティの上に置">セキュリティの上に置かれる</option>
+<option value="セキュリティの下に置">セキュリティの下に置かれる</option>
 </optgroup>
-<option value="デッキの上に戻">デッキ上に戻す</option>
-<option value="デッキの下に戻">デッキ下に戻す</option>
-<option value="セキュリティの上に置">セキュリティ上に置く</option>
-<option value="セキュリティの下に置">セキュリティ下に置く</option>
+
 <optgroup label="無効">
 <option value="アタックできない">アタック禁止</option>
 <option value="ブロックできない">ブロック禁止</option>
