@@ -272,59 +272,87 @@
 <option value="メモリー+">メモリー＋</option>
 <option value="メモリー-">メモリー－</option>
 <option value="3にする">メモリー3</option>
+</optgroup>
 
-<option value="コストを支払わずに登場">無コスト登場</option>
-<option value="コストを支払わずに進化">無コスト進化</option>
+<optgroup label="登場">
 <option value="登場コスト-">登場コスト－</option>
+<option value="コストを支払わずに登場">無コスト登場</option>
+<option value="登場できない">登場禁止</option>
+
+</optgroup>
+
+<optgroup label="進化">
 <option value="進化コスト-">進化コスト－</option>
+<option value="コストを支払わずに進化">無コスト進化</option>
+<option value="進化できない">進化禁止</option>
+</optgroup>
+
+<optgroup label="オプション">
 <option value="使用コスト-">使用コスト－</option>
+<option value="使用できない">使用禁止</option>
 </optgroup>
 
 <optgroup label="バトル">
-<option value="バトルできる">強制バトル</option>
-<option value="得る">効果得る</option>
-<option value="与える">効果与える</option>
-<option value="扱い">情報追加</option>
-<option value="に変更">情報変更</option>
-<option value="アタックの対象を">アタック対象変更</option>
+<option value="バトルできる">バトル</option>
+<option value="アタックできる">アタック</option>
+<option value="ブロックできる">ブロック</option>
+<option value="アクティブにする">アクティブ</option>
+<option value="レストできる">レスト</option>
+<option value="アタックの対象を">対象変更</option>
+<option value="変更されない">対象変更無効</option>
+<option value="アタックされない">アタック無効</option>
+<option value="ブロックされない">ブロック無効</option>
+
+<option value="アタックできない">アタック禁止</option>
+<option value="ブロックできない">ブロック禁止</option>
+<option value="アクティブになら">アクティブ禁止</option>
+<option value="レストできない">レスト禁止</option>
+
 <option value="アタックを終了">アタック終了</option>
 </optgroup>
 
-<optgroup label="バトルエリアを離れる">
+<optgroup label="消滅">
+<option value="消滅させる。">消滅</option>
+<option value="、消滅しない">消滅無効</option>
+<option value="バトルで消滅しない">バトル消滅無効</option>
+<option value="効果で消滅しない">効果消滅無効</option>
+</optgroup>
+
+<optgroup label="破棄">
+<option value="破棄する。">破棄</option>
+</optgroup>
+
+<optgroup label="バトルエリアから">
 <option value="手札に戻">手札に戻る</option>
 <option value="デッキの上に戻">デッキの上に戻る</option>
 <option value="デッキの下に戻">デッキの下に戻る</option>
 <option value="セキュリティの上に置">セキュリティの上に置かれる</option>
 <option value="セキュリティの下に置">セキュリティの下に置かれる</option>
+
+<option value="離れない">離れない</option>
+<option value="移動できない">移動禁止</option>
+<option value="手札に戻らない">手札に戻らない</option>
+<option value="デッキに戻らない">デッキに戻らない</option>
 </optgroup>
 
-<optgroup label="無効">
-<option value="アタックできない">アタック禁止</option>
-<option value="ブロックできない">ブロック禁止</option>
-<option value="アクティブにならない">アクティブ禁止</option>
-<option value="レストできない">レスト禁止</option>
-<option value="移動できない">移動禁止</option>
-<option value="手札に戻らない">手札戻せ禁止</option>
-<option value="デッキに戻らない">デッキ戻せ禁止</option>
-<option value="登場できない">登場禁止</option>
-<option value="進化できない">進化禁止</option>
-<option value="使用できない">使用禁止</option>
-<option value="発揮しない">効果禁止</option>
-<option value="【登場時】効果は発揮しない">【登場時】効果禁止</option>
-<option value="【進化時】効果は発揮しない">【進化時】効果禁止</option>
-<option value="【セキュリティ】効果は発揮しない">【セキュリティ】効果禁止</option>
+<optgroup label="効果">
+<option value="得る">効果得る</option>
+<option value="与える">効果与える</option>
+<option value="扱い">情報追加</option>
+<option value="に変更">情報変更</option>
 
 <option value="効果を受">効果無効</option>
 <option value="デジモンの効果を受">デジモン効果無効</option>
 <option value="オプションの効果を受">オプション効果無効</option>
 <option value="≪退化≫の効果を受けない">退化無効</option>
-<option value="離れない">移動無効</option>
 <option value="DPをマイナスされ">DPマイナス無効</option>
-<option value="変更されない">対象変更無効</option>
-<option value="、消滅しない">消滅無効</option>
-<option value="バトルで消滅しない">バトル消滅無効</option>
-<option value="効果で消滅しない">効果消滅無効</option>
+
+<option value="発揮しない">効果禁止</option>
+<option value="【登場時】効果は発揮しない">【登場時】効果禁止</option>
+<option value="【進化時】効果は発揮しない">【進化時】効果禁止</option>
+<option value="【セキュリティ】効果は発揮しない">【セキュリティ】効果禁止</option>
 </optgroup>
+
 </select>
 </th>
 
