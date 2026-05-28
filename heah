@@ -274,7 +274,7 @@
 </optgroup>
 
 <optgroup label="サーチ">
-<option value="を手札に加える。">手札に加える</option>
+<option value="オープンする。">オープン</option>
 </optgroup>
 
 <optgroup label="登場">
@@ -410,7 +410,7 @@
 </optgroup>
 
 <optgroup label="サーチ">
-<option value="オープンする">オープンする</option>
+<option value="オープンする。">オープン</option>
 </optgroup>
 
 <optgroup label="登場">
