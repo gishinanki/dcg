@@ -111,10 +111,10 @@
 <select class="table-filter w5" onchange="filter_rows()">
 <option value="">-</option>
 
-<optgroup label="領域">
-<option value="育成エリア">育成エリア</option>
-<option value="{育成}">{育成}</option>
-</optgroup>
+<option value="[進化元効果]">[進化元効果]</option>
+<option value="[セキュリティ効果]">[セキュリティ効果]</option>
+<option value="[リンク中効果]">[リンク中効果]</option>
+<option value="[デュアル効果]">[デュアル効果]</option>
 
 <optgroup label="タイミング">
 <option value="【登場時】">【登場時】</option>
@@ -152,7 +152,6 @@
 <option value="相手のセキュリティ">相手のセキュリティ</option>
 <option value="相手のトラッシュ">相手のトラッシュ</option>
 </optgroup>
-
 
 </select>
 </th>
@@ -340,7 +339,6 @@
 <option value="セキュリティの下に置">セキュリティの下に置かれる</option>
 
 <option value="離れない">離れない</option>
-<option value="移動できない">移動禁止</option>
 <option value="手札に戻らない">手札に戻らない</option>
 <option value="デッキに戻らない">デッキに戻らない</option>
 </optgroup>
@@ -397,30 +395,104 @@
 <option value="≪衝突">≪衝突≫</option>
 </optgroup>
 
+<optgroup label="領域">
+<option value="{育成}">{育成}</option>
+</optgroup>
+
 <optgroup label="ルール">
 <option value="オーバーフロー">〔オーバーフロー〕</option>
 <option value="〈リンク〉">〔リンク〕</option>
 <option value="≪アーツ進化≫">〔アーツ進化〕</option>
 </optgroup>
 
-<option value="ジョグレス進化">ジョグレス進化</option>
+<optgroup label="メモリー">
+<option value="メモリー+">メモリー＋</option>
+</optgroup>
 
-<optgroup label="無効">
-<option value="アタックを終了">攻撃終了</option>
-<option value="アタックできない">攻撃禁止</option>
-<option value="アタックとブロックができない">攻防禁止</option>
-<option value="アクティブにならない">アクティブ禁止</option>
-<option value="レストできない">レスト禁止</option>
+<optgroup label="サーチ">
+<option value="オープンする">オープンする</option>
+</optgroup>
+
+<optgroup label="登場">
+<option value="支払って登場できる">登場</option>
+<option value="登場コスト-">登場コスト－</option>
+<option value="コストを支払わずに登場">無コスト登場</option>
+<option value="登場コストをマイナスできない">登場コストマイナス禁止</option>
+<option value="登場できない">登場禁止</option>
+</optgroup>
+
+<optgroup label="進化">
+<option value="支払って進化できる">進化</option>
+<option value="支払ってジョグレス進化できる">ジョグレス進化</option>
+<option value="進化条件を無視">進化条件無視</option>
+<option value="進化コスト-">進化コスト－</option>
+<option value="コストを支払わずに進化">無コスト進化</option>
+<option value="進化コストをマイナスできない">進化コストマイナス禁止</option>
+<option value="進化できない">進化禁止</option>
+</optgroup>
+
+<optgroup label="テイマー/オプション">
+<option value="色条件を無視">色条件無視</option>
+<option value="使用コスト-">使用コスト－</option>
 <option value="使用できない">使用禁止</option>
-<option value="発揮しない">効果発揮禁止</option>
+</optgroup>
+
+<optgroup label="バトル">
+<option value="バトルできる">バトル</option>
+<option value="アタックできる">アタック</option>
+<option value="アクティブにする">アクティブ</option>
+<option value="レストできる">レスト</option>
+<option value="の対象を">対象変更</option>
+<option value="変更されない">対象変更無効</option>
+<option value="アタックされない">アタック無効</option>
+<option value="ブロックされない">ブロック無効</option>
+
+<option value="アタックできない">アタック禁止</option>
+<option value="ブロックできない">ブロック禁止</option>
+<option value="アクティブになら">アクティブ禁止</option>
+<option value="レストできない">レスト禁止</option>
+
+<option value="アタックを終了">アタック終了</option>
+</optgroup>
+
+<optgroup label="消滅">
+<option value="消滅させる。">消滅</option>
+<option value="、消滅しない">消滅無効</option>
+<option value="バトルで消滅しない">バトル消滅無効</option>
+<option value="効果で消滅しない">効果消滅無効</option>
+</optgroup>
+
+<optgroup label="破棄">
+<option value="破棄する。">破棄</option>
+<option value="破棄されない">破棄無効</option>
+</optgroup>
+
+<optgroup label="バトルエリアから">
+<option value="手札に戻">手札に戻る</option>
+<option value="デッキの上に戻">デッキの上に戻る</option>
+<option value="デッキの下に戻">デッキの下に戻る</option>
+<option value="セキュリティの上に置">セキュリティの上に置かれる</option>
+<option value="セキュリティの下に置">セキュリティの下に置かれる</option>
+
+<option value="離れない">離れない</option>
+<option value="移動できない">移動禁止</option>
+<option value="手札に戻らない">手札に戻らない</option>
+<option value="デッキに戻らない">デッキに戻らない</option>
+</optgroup>
+
+<optgroup label="効果">
+<option value="得る">効果得る</option>
+<option value="与える">効果与える</option>
 
 <option value="効果を受">効果無効</option>
 <option value="≪退化≫の効果を受けない">退化無効</option>
-<option value="離れない">移動無効</option>
-<option value="変更されない"対象変更無効</option>
-<option value="バトルで消滅しない">バトル消滅無効</option>
-<option value="、消滅しない">消滅無効</option>
+
+<option value="発揮しない">効果禁止</option>
+<option value="【登場時】効果は発揮しない">【登場時】効果禁止</option>
+<option value="【進化時】効果は発揮しない">【進化時】効果禁止</option>
+<option value="【セキュリティ】効果は発揮しない">【セキュリティ】効果禁止</option>
 </optgroup>
+
 </select>
 </th>
 
