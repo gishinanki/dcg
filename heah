@@ -274,13 +274,16 @@
 <option value="3にする">メモリー3</option>
 </optgroup>
 
+<optgroup label="サーチ">
+<option value="を手札に加える。">手札に加える</option>
+</optgroup>
+
 <optgroup label="登場">
+<option value="支払って登場できる">登場</option>
 <option value="登場コスト-">登場コスト－</option>
 <option value="コストを支払わずに登場">無コスト登場</option>
 <option value="登場できない">登場禁止</option>
 </optgroup>
-
-<option value="を手札に加える。">サーチ</option>
 
 <optgroup label="進化">
 <option value="支払って進化できる">進化</option>
