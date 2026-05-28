@@ -283,6 +283,8 @@
 <option value="を手札に加える。">サーチ</option>
 
 <optgroup label="進化">
+<option value="支払って進化できる">進化</option>
+<option value="支払ってジョグレス進化できる">ジョグレス進化</option>
 <option value="進化条件を無視">進化条件無視</option>
 <option value="進化コスト-">進化コスト－</option>
 <option value="コストを支払わずに進化">無コスト進化</option>
