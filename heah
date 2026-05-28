@@ -282,6 +282,7 @@
 <option value="支払って登場できる">登場</option>
 <option value="登場コスト-">登場コスト－</option>
 <option value="コストを支払わずに登場">無コスト登場</option>
+<option value="登場コストをマイナスできない">登場コストマイナス禁止</option>
 <option value="登場できない">登場禁止</option>
 </optgroup>
 
@@ -291,6 +292,7 @@
 <option value="進化条件を無視">進化条件無視</option>
 <option value="進化コスト-">進化コスト－</option>
 <option value="コストを支払わずに進化">無コスト進化</option>
+<option value="進化コストをマイナスできない">進化コストマイナス禁止</option>
 <option value="進化できない">進化禁止</option>
 </optgroup>
 
