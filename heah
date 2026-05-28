@@ -116,6 +116,9 @@
 <option value="[リンク中効果]">[リンク中効果]</option>
 <option value="[デュアル効果]">[デュアル効果]</option>
 
+<optgroup label="領域">
+<option value="{育成}">{育成}</option>
+</optgroup>
 <optgroup label="タイミング">
 <option value="【登場時】">【登場時】</option>
 <option value="【進化時】">【進化時】</option>
@@ -394,10 +397,6 @@
 <option value="≪進撃">≪進撃≫</option>
 <option value="≪道連れ">≪道連れ≫</option>
 <option value="≪衝突">≪衝突≫</option>
-</optgroup>
-
-<optgroup label="領域">
-<option value="{育成}">{育成}</option>
 </optgroup>
 
 <optgroup label="ルール">
