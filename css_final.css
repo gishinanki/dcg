@@ -143,6 +143,7 @@ border: 0.75px solid white;
 
 .a8{
 color: black;
+text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 background:linear-gradient(to right,rgba(200,200,200,1), rgba(100,100,100,1));
 }
 
