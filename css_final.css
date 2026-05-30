@@ -156,8 +156,7 @@ width: 200px;
 }
 
 .cut{
-background-position: center center; 
-background-size: 100px 100%;
+clip-path: inset(100px 200px);
 }
 
 .r {
