@@ -156,7 +156,7 @@ width: 200px;
 }
 
 .cut{
-clip-path: inset(100px 200px);
+clip-path: inset(0px 50px);
 }
 
 .r {
