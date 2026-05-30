@@ -156,8 +156,7 @@ width: 200px;
 }
 
 .cut{
- width: 400px;
-	height: 300px;
+ clip-path: inset(90px 0px);
 	overflow: hidden;
 }
 
