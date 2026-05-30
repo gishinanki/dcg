@@ -155,6 +155,11 @@ img{
 width: 200px;
 }
 
+.cut{
+background-position: center center; 
+background-size: 100px 100%;
+}
+
 .r {
     background:linear-gradient(red);
     color: white;text-align: center;
