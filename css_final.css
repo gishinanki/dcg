@@ -155,9 +155,14 @@ img{
 width: 200px;
 }
 
-.cut{
+.cut1{
  clip-path: inset(90px 0px);
+	border: 1px solid #000;
 	overflow: hidden;
+}
+.cut1 img {
+	width: 200px;
+	/*height: 100%;*/
 }
 
 .r {
