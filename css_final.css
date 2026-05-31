@@ -159,7 +159,8 @@ width: 200px;
 width: 200px;
 	height:280px;
 	border: 1px solid #fff;
-	background-position: center center; 
+	justify-content: center; /* 水平置中 */
+  align-items: center;  
 	overflow: hidden;
 }
 .cut1 img {
