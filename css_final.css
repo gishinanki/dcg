@@ -157,15 +157,14 @@ width: 200px;
 
 .cut1{
 width: 280px;
-	height:200px;
+height:200px;
 	display: flex;
 	justify-content: center; /* 水平置中 */
   align-items: center;  
 	overflow: hidden;
 }
 .cut1 img {
-	width: 900px;
-	height: 314px;
+	width: 800px;
 }
 
 .r {
