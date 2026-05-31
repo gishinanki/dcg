@@ -156,8 +156,9 @@ width: 200px;
 }
 
 .cut1{
- clip-path: inset(0px 500px);
-	border: 1px solid #000;
+width: 430px;
+	height:600px;
+	border: 1px solid #fff;
 	overflow: hidden;
 }
 .cut1 img {
