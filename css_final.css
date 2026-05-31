@@ -159,6 +159,7 @@ width: 200px;
 width: 200px;
 	height:280px;
 	border: 1px solid #fff;
+	background-position: center center; 
 	overflow: hidden;
 }
 .cut1 img {
