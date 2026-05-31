@@ -163,7 +163,7 @@ width: 200px;
 	overflow: hidden;
 }
 .cut1 img {
-	clip-path: inset(400px 200px);
+	clip-path: inset(50px 50px);
 }
 
 .r {
