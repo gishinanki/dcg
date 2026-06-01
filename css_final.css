@@ -167,7 +167,15 @@ overflow: hidden;
 .cut1 img {
 	width: 680px;
 }
-
+.cut2{
+width: 488px;
+height:660px;
+border-radius: 10px;
+display: flex;
+justify-content: center; /* 水平置中 */
+align-items: center;  
+overflow: hidden;
+}
 .r {
     background:linear-gradient(red);
     color: white;text-align: center;
