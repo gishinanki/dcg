@@ -165,7 +165,7 @@ align-items: center;
 overflow: hidden;
 }
 .cut1 img {
-	width: 680px;
+	width: 670px;
 }
 .cut2{
 width: 198px;
@@ -175,6 +175,9 @@ display: flex;
 justify-content: center; /* 水平置中 */
 align-items: center;  
 overflow: hidden;
+}
+.cut2 img {
+	width: 680px;
 }
 .r {
     background:linear-gradient(red);
