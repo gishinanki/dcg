@@ -310,8 +310,8 @@ text-align: center;
 
 .yr {
     background:linear-gradient(90deg,yellow 50%,red 50%);
-    color: black;text-align: center;
-    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
+    color: white;text-align: center;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .yb {
