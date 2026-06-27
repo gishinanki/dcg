@@ -565,3 +565,31 @@ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 bla
     color: white;text-align: center;
     text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
+
+.kpr {
+    background:linear-gradient(90deg,black 33%,purple 34%,66%,red 33%);
+    color: white;text-align: center;
+}
+
+.kbr {
+    background:linear-gradient(90deg,black 33%,blue 34%,66%,red 33%);
+    color: white;text-align: center;
+}
+
+.ygb {
+    background:linear-gradient(90deg,yellow 33%,green 34%,66%,blue 33%);
+    color: white;text-align: center;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
+}
+
+.wrp {
+    background:linear-gradient(90deg,white 33%,red 34%,66%,purple 33%);
+    color: white;text-align: center;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
+}
+
+.ywr {
+    background:linear-gradient(90deg,yellow 33%,white 34%,66%,red 33%);
+    color: white;text-align: center;
+    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
+}
