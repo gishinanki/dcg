@@ -2869,6 +2869,7 @@
 
 
 </tbody>
+
 <thead>
 
 <th col-index = 1>
@@ -2895,8 +2896,13 @@
 <option value="ハイブリッド体">ハイブリッド体</option>  
 </select>
  </th>
-
+ 
+ 
 <th col-index = 4>
+<input type="search" class="table-filter" onchange="filter_rows()" placeholder="">
+ </th>
+
+<th col-index = 5>
 <select class="table-filter" onchange="filter_rows()">
 <option value="">-</option>  
 <option value="NSp">NSp</option>  
@@ -2910,9 +2916,6 @@
 </select>
  </th>
 
-<th col-index = 5>
-<input type="search" class="table-filter" onchange="filter_rows()" placeholder="">
- </th>
 
 <th col-index = 6>
 <select class="table-filter" onchange="filter_rows()">
