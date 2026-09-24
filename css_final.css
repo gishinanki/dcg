@@ -357,8 +357,7 @@ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 bla
 
 .wy {
     background:linear-gradient(90deg,white 50%,yellow 50%);
-    color: white;text-align: center;
-　　text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
+    color: black;text-align: center;
 }
 
 .wg {
