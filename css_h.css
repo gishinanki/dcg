@@ -61,7 +61,7 @@ content: "Total："counters(aa,"");
 float: left;
 }
 
-.w1{
+table tr td:nth-child(1) {
 width: 100px;
 }
 
