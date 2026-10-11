@@ -310,8 +310,8 @@ text-align: center;
 
 .yr {
     background:linear-gradient(90deg,yellow 50%,red 50%);
-    color: white;text-align: center;
-    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
+    color: black;text-align: center;
+    text-shadow: -0.75px -0.75px 0 white,0.75px -0.75px 0 white,-0.75px 0.75px 0 white,0.75px 0.75px 0 white;
 }
 
 .yb {
@@ -357,7 +357,8 @@ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 bla
 
 .wy {
     background:linear-gradient(90deg,white 50%,yellow 50%);
-    color: black;text-align: center;
+    color: white;text-align: center;
+　　text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
 
 .wg {
@@ -564,44 +565,3 @@ text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 bla
     color: white;text-align: center;
     text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
 }
-
-.kpr {
-    background:linear-gradient(90deg,black 33%,purple 34%,66%,red 33%);
-    color: white;text-align: center;
-}
-
-.kbr {
-    background:linear-gradient(90deg,black 33%,blue 34%,66%,red 33%);
-    color: white;text-align: center;
-}
-
-.ygb {
-    background:linear-gradient(90deg,yellow 33%,green 34%,66%,blue 33%);
-    color: white;text-align: center;
-    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
-}
-
-.wrp {
-    background:linear-gradient(90deg,white 33%,red 34%,66%,purple 33%);
-    color: white;text-align: center;
-    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
-}
-
-.ywr {
-    background:linear-gradient(90deg,yellow 33%,white 34%,66%,red 33%);
-    color: white;text-align: center;
-    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
-}
-
-.yrb {
-    background:linear-gradient(90deg,yellow 33%,red 34%,66%,blue 33%);
-    color: white;text-align: center;
-    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
-}
-
-.byr {
-    background:linear-gradient(90deg,blue 33%,yellow 34%,66%,red 33%);
-    color: white;text-align: center;
-    text-shadow: -0.75px -0.75px 0 black,0.75px -0.75px 0 black,-0.75px 0.75px 0 black,0.75px 0.75px 0 black;
-}
-
