@@ -65,3 +65,8 @@ float: left;
 img{
 width: 200px;
 }
+
+table tr td:nth-child(2) 
+,table tr td:nth-child(3){
+    display: none;
+}
